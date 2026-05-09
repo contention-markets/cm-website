@@ -1,0 +1,9 @@
+# Local-only legacy archives — never deploy
+_archive
+src/app/_archive
+**/_archive
+
+# Standard
+node_modules
+.next
+.git

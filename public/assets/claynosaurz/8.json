@@ -1,0 +1,92 @@
+{
+  "mintAddress": "FyiS3NEPHbxjymB8KoMw9xMDdr1LZacJLFbAqQoeDqfu",
+  "owner": "mkr7azob5ee3RC64BVoHQPu7FnyaXzJnLMN8jm942pQ",
+  "supply": 1,
+  "collection": "claynosaurz",
+  "collectionName": "Claynosaurz",
+  "name": "Claynosaurz #309",
+  "updateAuthority": "B7B2g3WbdZMDV3YcDGRGhEt5KyWqDJZFwRR8zpWVEkUF",
+  "primarySaleHappened": true,
+  "sellerFeeBasisPoints": 500,
+  "image": "https://walrus.tusky.io/UJX0cYs8M_182IGCam4yN11r56gMcxsTiYAZsDVNKLQ",
+  "externalUrl": "https://claynosaurz.com",
+  "attributes": [
+    {
+      "trait_type": "Edition",
+      "value": "First"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Ankylo"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Mirage"
+    },
+    {
+      "trait_type": "Color",
+      "value": "Aqua"
+    },
+    {
+      "trait_type": "Motion",
+      "value": "Idle"
+    },
+    {
+      "trait_type": "Mood",
+      "value": "Confident"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Mint"
+    },
+    {
+      "trait_type": "Layer Count",
+      "value": "1"
+    },
+    {
+      "trait_type": "Back",
+      "value": "Off"
+    },
+    {
+      "trait_type": "Belly",
+      "value": "Off"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Off"
+    },
+    {
+      "trait_type": "Details",
+      "value": "On"
+    }
+  ],
+  "properties": {
+    "creators": [
+      {
+        "address": "36tfiBtaDGjAMKd6smPacHQhe4MXycLL6f9ww9CD1naT",
+        "share": 100
+      }
+    ],
+    "files": [
+      {
+        "uri": "https://walrus.tusky.io/UJX0cYs8M_182IGCam4yN11r56gMcxsTiYAZsDVNKLQ",
+        "type": "image/gif"
+      },
+      {
+        "uri": "https://walrus.tusky.io/II8Sc-thBfFcayRy1hqL1J7MV6apaBK2dd-Up37gTDQ",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  },
+  "price": 9.6,
+  "listStatus": "listed",
+  "tokenAddress": "BStvpk1jofm3vuQdCJb6Ru2L7c73Gjd541FKwD1H3tt6",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "9600000000",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}

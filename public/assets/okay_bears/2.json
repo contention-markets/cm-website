@@ -1,0 +1,45 @@
+{
+  "mintAddress": "5Bb7Qbc9fzWZQnAc78eVBsRh9remAvpP4PvZ28FDfyjN",
+  "owner": "8Gwdguqu9B96eSGFWJbz49PRuKRT5nZNLBDttm4mDQrh",
+  "supply": 1,
+  "collection": "okay_bears",
+  "collectionName": "Okay Bears",
+  "name": "Okay Bear #9120",
+  "updateAuthority": "4zj22pu8yRyenFHwLmue28CqVmGFgVQt5FmVvwdP5fLa",
+  "primarySaleHappened": true,
+  "sellerFeeBasisPoints": 500,
+  "image": "https://arweave.net/Ln20lLPtSXP-poaUPAN57Cd96dP6S_bPgQ0n9egaBHM",
+  "externalUrl": "https://www.okaybears.com/",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Grey"
+    },
+    {
+      "trait_type": "Fur",
+      "value": "Sand"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Gah"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Defeated"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Hawaiian Shirt"
+    }
+  ],
+  "price": 0.7737,
+  "listStatus": "listed",
+  "tokenAddress": "4b4NahJuTmuxRUgYh3B9S7BuYRPrR1xod3Hiwg5y6NsW",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "773700000",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}

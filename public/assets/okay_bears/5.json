@@ -1,0 +1,45 @@
+{
+  "mintAddress": "EzPHPgsHQpt219V91JgNctNGTwyJSCQkbAqAR6nFJ3qn",
+  "owner": "odinY4sgwWRV3kiwkNv53McrLnuNhPf4eLTfyqmSSnu",
+  "supply": 1,
+  "collection": "okay_bears",
+  "collectionName": "Okay Bears",
+  "name": "Okay Bear #7162",
+  "updateAuthority": "4zj22pu8yRyenFHwLmue28CqVmGFgVQt5FmVvwdP5fLa",
+  "primarySaleHappened": true,
+  "sellerFeeBasisPoints": 500,
+  "image": "https://arweave.net/PxlRSnFVzuQ7oywX1pBw3R0SnueJdHSEc27JPF7swh8",
+  "externalUrl": "https://www.okaybears.com/",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "Fur",
+      "value": "Sand"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Gah"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Sarcastic"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Beret"
+    }
+  ],
+  "price": 0.7749,
+  "listStatus": "listed",
+  "tokenAddress": "986xecFPfs5Fnyqy1XbJySXenK7nxBaKP8Gg81yQDvXb",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "774900000",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "mintAddress": "DANY1VRhu9sSbntRSyzM5WvfaCshr6W7CJZLFcZV9fUJ",
+  "owner": "EWSF8izGXU4HVGdDSMXRzzQ6W8CfDtNRbVSAb4L6CuGW",
+  "supply": 1,
+  "collection": "mad_lads",
+  "collectionName": "Mad Lads",
+  "name": "Mad Lads #2414",
+  "updateAuthority": "2RtGg6fsFiiF1EQzHqbd66AhW7R5bWeQGpTbv2UMkCdW",
+  "primarySaleHappened": true,
+  "sellerFeeBasisPoints": 420,
+  "image": "https://madlads.s3.us-west-2.amazonaws.com/images/2414.png",
+  "externalUrl": "https://madlads.com",
+  "attributes": [
+    {
+      "trait_type": "Gender",
+      "value": "Male"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Dark"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Mad"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "French Crop"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Clothing",
+      "value": "Tuxedo"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Green"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "id": "portrait",
+        "uri": "https://madlads.s3.us-west-2.amazonaws.com/images/2414.png",
+        "type": "image/png"
+      },
+      {
+        "id": "rug",
+        "uri": "https://arweave.net/qJ5B6fx5hEt4P7XbicbJQRyTcbyLaV-OQNA1KjzdqOQ/2414.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "share": 100,
+        "address": "2RtGg6fsFiiF1EQzHqbd66AhW7R5bWeQGpTbv2UMkCdW"
+      }
+    ],
+    "collection": {
+      "name": "Mad Lads",
+      "family": "MAD"
+    }
+  },
+  "price": 22.833,
+  "listStatus": "listed",
+  "tokenAddress": "F4dxFb7bmPN7rVor2SRZ8KfHGWR6FoGmGcq985KPCfGd",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "22833000000",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}

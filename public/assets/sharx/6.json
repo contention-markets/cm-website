@@ -1,0 +1,65 @@
+{
+  "mintAddress": "15cmqzhyccT6P3jJw6CzqfD7aLpdYCSe4W6aHrEqceU",
+  "owner": "7mGE1JiFVijZXox3caNkheCL69FySZSyc2puqgCwXtGA",
+  "supply": 1,
+  "collection": "sharx",
+  "collectionName": "sharx by sharky.fi",
+  "name": "sharx #1774",
+  "updateAuthority": "GB1yde2ESeWvT4yjiDgnnY9gH7DhcvppPttKVTmVx3Fe",
+  "primarySaleHappened": true,
+  "sellerFeeBasisPoints": 790,
+  "image": "https://arweave.net/TCBa4EmwvxQIytx2G5r-bXS0_re3pt2N40sh7UQJei0?ext=png",
+  "externalUrl": "https://sharky.fi",
+  "attributes": [
+    {
+      "trait_type": "level",
+      "value": 3
+    },
+    {
+      "trait_type": "attribute count",
+      "value": 2
+    },
+    {
+      "trait_type": "background",
+      "value": "gradient - sunflower"
+    },
+    {
+      "trait_type": "body",
+      "value": "minimalist - taupe"
+    },
+    {
+      "trait_type": "face",
+      "value": "content"
+    },
+    {
+      "trait_type": "prop",
+      "value": "music - bongos"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://arweave.net/TCBa4EmwvxQIytx2G5r-bXS0_re3pt2N40sh7UQJei0?ext=png",
+        "type": "image/png"
+      }
+    ],
+    "edition": 1774,
+    "category": "image",
+    "creators": [
+      {
+        "share": 100,
+        "address": "7YdUTMtUauMjtezjwMzyaAUu1A92qCF1yx8AiiZ38ovs"
+      }
+    ]
+  },
+  "price": 0.395,
+  "listStatus": "listed",
+  "tokenAddress": "HefNH7SJhECcqgfZydJQ8CbwZ2jd2uuxjwxcFtFNB4nn",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "395000000",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}

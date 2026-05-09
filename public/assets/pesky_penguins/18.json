@@ -1,0 +1,80 @@
+{
+  "mintAddress": "BCxqq48CKNzZbRbcMdGMzgZA9AgkGgf2txZrNcQ4Eoyx",
+  "owner": "H6B1xriQkPSgpKAfLrTexDWtnuNGga77wGNnuJzwnY3G",
+  "supply": 1,
+  "collection": "pesky_penguins",
+  "collectionName": "Pesky Penguins",
+  "name": "Pesky Penguin #3912",
+  "updateAuthority": "PeskyAmQxdHK17Rpn1khjoMiuerB8rPVDPYjAyXvqSt",
+  "primarySaleHappened": true,
+  "sellerFeeBasisPoints": 600,
+  "image": "https://cdn.pesky-penguins.com/artwork/3912-pixel.png",
+  "externalUrl": "https://pesky-penguins.com",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Coffeefruit"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cowboy Hat"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "None"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Sleepy"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Kimono"
+    },
+    {
+      "trait_type": "Beak",
+      "value": "None"
+    },
+    {
+      "trait_type": "Hyper-Dimensional?",
+      "value": "false"
+    },
+    {
+      "trait_type": "Art Style",
+      "value": "Pixel"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://cdn.pesky-penguins.com/artwork/3912-pixel.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "share": 40,
+        "address": "pEsKYABNARLiDFYrjbjHDieD5h6gHrvYf9Vru62NX9k"
+      },
+      {
+        "share": 60,
+        "address": "ppTeamTpw1cbC8ybJpppbnoL7xXD9froJNFb5uvoPvb"
+      }
+    ]
+  },
+  "price": 0.214207365,
+  "listStatus": "listed",
+  "tokenAddress": "AhyZThpXs33asewynTpmEvwN5xvEQ61qd2rvuhwBreFW",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "214207365",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}

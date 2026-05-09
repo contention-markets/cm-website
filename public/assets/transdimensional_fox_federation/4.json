@@ -1,0 +1,63 @@
+{
+  "mintAddress": "5oE7BJKRA6hg4T8L9wbqJDPgckB5CvH3bnB8LTYDLxjF",
+  "owner": "5K7esHNDmJLimDJCZd6KjiJKbk4egJ6upxo6zYjyYnQW",
+  "supply": 1,
+  "collection": "transdimensional_fox_federation",
+  "collectionName": "Transdimensional Fox Federation",
+  "name": "Fox #6011",
+  "updateAuthority": "MwW2RfWAfGrKmh9QAkDELdEV7Ue39FoP885dhuHmqr9",
+  "primarySaleHappened": true,
+  "sellerFeeBasisPoints": 420,
+  "image": "https://famousfoxes.com/tff/6011.png",
+  "externalUrl": "https://famousfoxes.com",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Champagne"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Hoodie Green"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Natural"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Grin"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Headband White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Raised"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "url": "https://famousfoxes.com/tff/6011.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "share": 100,
+        "address": "MwW2RfWAfGrKmh9QAkDELdEV7Ue39FoP885dhuHmqr9"
+      }
+    ]
+  },
+  "price": 0.76,
+  "listStatus": "listed",
+  "tokenAddress": "3iRrHE1Lu6oUkwfo4aiSexVqcY8CMAKsJnddN2F3XPWT",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "760000000",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}

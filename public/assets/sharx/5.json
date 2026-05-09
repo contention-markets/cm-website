@@ -1,0 +1,69 @@
+{
+  "mintAddress": "GxqdeR2xR28Kj21HdkRFnyEjP3GYbgXw6E1SfGn74afM",
+  "owner": "H6B1xriQkPSgpKAfLrTexDWtnuNGga77wGNnuJzwnY3G",
+  "supply": 1,
+  "collection": "sharx",
+  "collectionName": "sharx by sharky.fi",
+  "name": "sharx #6389",
+  "updateAuthority": "GB1yde2ESeWvT4yjiDgnnY9gH7DhcvppPttKVTmVx3Fe",
+  "primarySaleHappened": true,
+  "sellerFeeBasisPoints": 790,
+  "image": "https://arweave.net/bQDptOckAEKCPQgRy6QFO0WnZnE_QgZdiDd8QkMJR5w?ext=png",
+  "externalUrl": "https://sharky.fi",
+  "attributes": [
+    {
+      "trait_type": "level",
+      "value": 3
+    },
+    {
+      "trait_type": "attribute count",
+      "value": 3
+    },
+    {
+      "trait_type": "background",
+      "value": "gradient - cerulean"
+    },
+    {
+      "trait_type": "body",
+      "value": "dragonscale - purple"
+    },
+    {
+      "trait_type": "hat",
+      "value": "coral"
+    },
+    {
+      "trait_type": "face",
+      "value": "toothy"
+    },
+    {
+      "trait_type": "prop",
+      "value": "surfboard"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://arweave.net/bQDptOckAEKCPQgRy6QFO0WnZnE_QgZdiDd8QkMJR5w?ext=png",
+        "type": "image/png"
+      }
+    ],
+    "edition": 6389,
+    "category": "image",
+    "creators": [
+      {
+        "share": 100,
+        "address": "7YdUTMtUauMjtezjwMzyaAUu1A92qCF1yx8AiiZ38ovs"
+      }
+    ]
+  },
+  "price": 0.356137326,
+  "listStatus": "listed",
+  "tokenAddress": "Hv6VKTrTeV9zAumLUZKKdJdqx8o5jHCiSBaxB6dUPBzG",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "356137326",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}

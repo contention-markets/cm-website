@@ -1,0 +1,100 @@
+{
+  "mintAddress": "CzoZ2QXJfUaXvQbZT6oNs8JfoNqJNhsQn8DzY2iVwY6d",
+  "owner": "2ZCQ18QjibZZCPfcCesdZ1y2WMmZKd5rKZLyc2sjYGir",
+  "supply": 1,
+  "collection": "claynosaurz",
+  "collectionName": "Claynosaurz",
+  "name": "Claynosaurz #3898",
+  "updateAuthority": "B7B2g3WbdZMDV3YcDGRGhEt5KyWqDJZFwRR8zpWVEkUF",
+  "primarySaleHappened": true,
+  "sellerFeeBasisPoints": 500,
+  "image": "https://walrus.tusky.io/Mjt5m3iKxmA6r85ey0mZrZtq4drx6mcNZBdiPNevOEI",
+  "externalUrl": "https://claynosaurz.com",
+  "attributes": [
+    {
+      "trait_type": "Class",
+      "value": "Warrior"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "First"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Trice"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Mirage"
+    },
+    {
+      "trait_type": "Color",
+      "value": "Spring"
+    },
+    {
+      "trait_type": "Motion",
+      "value": "Walk"
+    },
+    {
+      "trait_type": "Mood",
+      "value": "Sleepy"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Salmon"
+    },
+    {
+      "trait_type": "Layer Count",
+      "value": "1"
+    },
+    {
+      "trait_type": "Back",
+      "value": "On"
+    },
+    {
+      "trait_type": "Belly",
+      "value": "Off"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Off"
+    },
+    {
+      "trait_type": "Details",
+      "value": "Off"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://walrus.tusky.io/Mjt5m3iKxmA6r85ey0mZrZtq4drx6mcNZBdiPNevOEI",
+        "type": "image/gif"
+      },
+      {
+        "uri": "https://walrus.tusky.io/O73kSU99-Z__ib5Xo3DtwFSg_TzCUinjd7a35_y8FRs",
+        "type": "image/png"
+      },
+      {
+        "uri": "https://walrus.tusky.io/isChZKrtTFTns4B6h9dXU0ct14HU7tD3YXCW6pweSZ4",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "share": 100,
+        "address": "36tfiBtaDGjAMKd6smPacHQhe4MXycLL6f9ww9CD1naT"
+      }
+    ]
+  },
+  "price": 8.999,
+  "listStatus": "listed",
+  "tokenAddress": "ARYX6N1zq6hVkVE12qvpEpzxWh6QLc9TvueNKnxjHeHL",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "8999000000",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}

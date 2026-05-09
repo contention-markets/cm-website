@@ -1,0 +1,45 @@
+{
+  "mintAddress": "4sAuFuGzVWfiA638SASTNcojKJLqApAdyP7rWcFXV3vL",
+  "owner": "thorMWaSrQu4n4nR2SVqU5bJkLpcWhD4BjAghGg9ErH",
+  "supply": 1,
+  "collection": "okay_bears",
+  "collectionName": "Okay Bears",
+  "name": "Okay Bear #8829",
+  "updateAuthority": "4zj22pu8yRyenFHwLmue28CqVmGFgVQt5FmVvwdP5fLa",
+  "primarySaleHappened": true,
+  "sellerFeeBasisPoints": 500,
+  "image": "https://arweave.net/Wg11TCj4MZDsUZTYabxerUYPsupskXDbUq9BVj3Q9Jc",
+  "externalUrl": "https://www.okaybears.com/",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Fur",
+      "value": "Tan"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Sneer"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Interested"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Hooded Cardigan"
+    }
+  ],
+  "price": 0.7749,
+  "listStatus": "listed",
+  "tokenAddress": "AcZR1YZVtEP5JHULiEtyJUJi9bHPyDC2Qi3vQ7w75qV4",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "774900000",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}

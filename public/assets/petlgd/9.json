@@ -1,0 +1,109 @@
+{
+  "mintAddress": "9CMro2XNc1n8Y5cMJAamR8NTqjq2eLhm1pApQb72KRsP",
+  "owner": "6Mh5qQamNLvGzm7hmCYWy9zKpeDD9rkeo9EsZFjwaun2",
+  "supply": 1,
+  "collection": "petlgd",
+  "collectionName": "Pet Legends OG",
+  "name": "Pet Legends OG Orchid #80",
+  "updateAuthority": "7g71M17m4riZnQdQmiKhGpNGXVQgQR9RUXdPECxGveT2",
+  "primarySaleHappened": true,
+  "sellerFeeBasisPoints": 800,
+  "image": "https://arweave.net/PqWZH4rNd0ETt2zzprXXf9GoP3F4aWu0iOUnB0v8pjE?ext=png",
+  "animationUrl": "https://arweave.net/uJZ-HQEDbcSlY_norlft5o1Nnl9B2Hcfnk_I67sNC20?ext=glb",
+  "externalUrl": "https://petlegends.com",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Character"
+    },
+    {
+      "trait_type": "Feature",
+      "value": "Glasses Purple"
+    },
+    {
+      "trait_type": "Primary Colour",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Secondary Colour",
+      "value": "Gold"
+    },
+    {
+      "trait_type": "Transform",
+      "value": "N/A"
+    },
+    {
+      "trait_type": "Landlord",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Purity",
+      "value": 100
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "OG"
+    },
+    {
+      "trait_type": "Dark",
+      "value": 80
+    },
+    {
+      "trait_type": "Rock",
+      "value": 80
+    },
+    {
+      "trait_type": "Energy",
+      "value": 80
+    },
+    {
+      "trait_type": "Light",
+      "value": 80
+    },
+    {
+      "trait_type": "Fire",
+      "value": 80
+    },
+    {
+      "trait_type": "Ice",
+      "value": 80
+    },
+    {
+      "trait_type": "Sky",
+      "value": 80
+    },
+    {
+      "trait_type": "Metal",
+      "value": 80
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://arweave.net/PqWZH4rNd0ETt2zzprXXf9GoP3F4aWu0iOUnB0v8pjE?ext=png",
+        "type": "image/png"
+      },
+      {
+        "uri": "https://arweave.net/uJZ-HQEDbcSlY_norlft5o1Nnl9B2Hcfnk_I67sNC20?ext=glb",
+        "type": "glb"
+      }
+    ],
+    "category": "vr",
+    "creators": [
+      {
+        "share": 100,
+        "address": "7g71M17m4riZnQdQmiKhGpNGXVQgQR9RUXdPECxGveT2"
+      }
+    ]
+  },
+  "price": 0.6,
+  "listStatus": "listed",
+  "tokenAddress": "8L7FTY9LXjAHksJnwpC1BPgFks7QPZ6s9ByhYYW5zAHH",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "600000000",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}

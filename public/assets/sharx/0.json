@@ -1,0 +1,65 @@
+{
+  "mintAddress": "3EsL3Lk9JcJhycMJx4xd6gwvueuRq7bpjCN3p8J17Koh",
+  "owner": "H6B1xriQkPSgpKAfLrTexDWtnuNGga77wGNnuJzwnY3G",
+  "supply": 1,
+  "collection": "sharx",
+  "collectionName": "sharx by sharky.fi",
+  "name": "sharx #514",
+  "updateAuthority": "GB1yde2ESeWvT4yjiDgnnY9gH7DhcvppPttKVTmVx3Fe",
+  "primarySaleHappened": true,
+  "sellerFeeBasisPoints": 790,
+  "image": "https://arweave.net/vDsPxTTcTQKMeHFtZv-X4MeDR76o7lofM5AXo4SEuX4?ext=png",
+  "externalUrl": "https://sharky.fi",
+  "attributes": [
+    {
+      "trait_type": "level",
+      "value": 3
+    },
+    {
+      "trait_type": "attribute count",
+      "value": 2
+    },
+    {
+      "trait_type": "background",
+      "value": "pastel - robin egg"
+    },
+    {
+      "trait_type": "body",
+      "value": "minimalist - aqua"
+    },
+    {
+      "trait_type": "face",
+      "value": "fiery"
+    },
+    {
+      "trait_type": "prop",
+      "value": "throwing star"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://arweave.net/vDsPxTTcTQKMeHFtZv-X4MeDR76o7lofM5AXo4SEuX4?ext=png",
+        "type": "image/png"
+      }
+    ],
+    "edition": 514,
+    "category": "image",
+    "creators": [
+      {
+        "share": 100,
+        "address": "7YdUTMtUauMjtezjwMzyaAUu1A92qCF1yx8AiiZ38ovs"
+      }
+    ]
+  },
+  "price": 0.356137326,
+  "listStatus": "listed",
+  "tokenAddress": "8FGEtMrhdu921Fexk4gLFWVLqRVfRd31gkQasxZWwbUg",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "356137326",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}

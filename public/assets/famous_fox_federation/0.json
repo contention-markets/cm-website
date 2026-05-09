@@ -1,0 +1,67 @@
+{
+  "mintAddress": "3CQVcSsVD7wyMSVbgtkgJ3ohxLPppSCMkPCrFDf2US31",
+  "owner": "DArJasEY35MziFyQ67TgpnmqY23N6VEWiAJFsogcBowT",
+  "supply": 1,
+  "collection": "famous_fox_federation",
+  "collectionName": "Famous Fox Federation",
+  "name": "Fox #8563",
+  "updateAuthority": "3pMvTLUA9NzZQd4gi725p89mvND1wRNQM3C8XEv1hTdA",
+  "primarySaleHappened": true,
+  "sellerFeeBasisPoints": 420,
+  "image": "https://famousfoxes.com/hd/8563.png",
+  "externalUrl": "https://famousfoxes.com",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Jacket Blue"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Natural"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Monocle"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Snarl"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cap Purple"
+    },
+    {
+      "trait_type": "Summoned",
+      "value": "True"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "url": "https://famousfoxes.com/hd/8563.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "share": 100,
+        "address": "3pMvTLUA9NzZQd4gi725p89mvND1wRNQM3C8XEv1hTdA"
+      }
+    ]
+  },
+  "price": 2.4249,
+  "listStatus": "listed",
+  "tokenAddress": "2YzDozss96VSoZsfXkeJy33LPWFGrL7jp6nJEaNXgMeM",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "2424900000",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}

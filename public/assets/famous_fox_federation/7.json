@@ -1,0 +1,67 @@
+{
+  "mintAddress": "CAd1nXAdSiGoA44DaoTTzdkfA3LaJjQKajXGgU8oBRoF",
+  "owner": "9Egu8hp53f5w7b8QhxjjyYAhNeZViYamHbTB8GNSCPQA",
+  "supply": 1,
+  "collection": "famous_fox_federation",
+  "collectionName": "Famous Fox Federation",
+  "name": "Fox #9833",
+  "updateAuthority": "3pMvTLUA9NzZQd4gi725p89mvND1wRNQM3C8XEv1hTdA",
+  "primarySaleHappened": true,
+  "sellerFeeBasisPoints": 420,
+  "image": "https://famousfoxes.com/hd/9833.png",
+  "externalUrl": "https://famousfoxes.com",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Rose"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Turtleneck Leaf"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Natural"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Starstruck"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "UwU"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cap Star"
+    },
+    {
+      "trait_type": "Summoned",
+      "value": "True"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "url": "https://famousfoxes.com/hd/9833.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "share": 100,
+        "address": "3pMvTLUA9NzZQd4gi725p89mvND1wRNQM3C8XEv1hTdA"
+      }
+    ]
+  },
+  "price": 2.508,
+  "listStatus": "listed",
+  "tokenAddress": "6m5SavkAVUiVPfsd2wGSGCj952QPSCYdY4BsNz4M3ih4",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "2508000000",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}

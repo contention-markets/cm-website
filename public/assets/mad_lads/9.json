@@ -1,0 +1,78 @@
+{
+  "mintAddress": "3vcjNy8xN6ZiCqdGpZL2hBwXH7R7Hc3k94DZY3QygPMW",
+  "owner": "DJbv6BZr4mxyjinPVs6v2XbXwWmhQ9DWWVoU2B9ZDvgf",
+  "supply": 1,
+  "collection": "mad_lads",
+  "collectionName": "Mad Lads",
+  "name": "Mad Lads #4686",
+  "updateAuthority": "2RtGg6fsFiiF1EQzHqbd66AhW7R5bWeQGpTbv2UMkCdW",
+  "primarySaleHappened": true,
+  "sellerFeeBasisPoints": 420,
+  "image": "https://madlads.s3.us-west-2.amazonaws.com/images/4686.png",
+  "externalUrl": "https://madlads.com",
+  "attributes": [
+    {
+      "trait_type": "Gender",
+      "value": "Male"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Light"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Mad"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Gambler"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Possessed"
+    },
+    {
+      "trait_type": "Clothing",
+      "value": "Black Coat"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Violet"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "id": "portrait",
+        "uri": "https://madlads.s3.us-west-2.amazonaws.com/images/4686.png",
+        "type": "image/png"
+      },
+      {
+        "id": "rug",
+        "uri": "https://arweave.net/qJ5B6fx5hEt4P7XbicbJQRyTcbyLaV-OQNA1KjzdqOQ/4686.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "share": 100,
+        "address": "2RtGg6fsFiiF1EQzHqbd66AhW7R5bWeQGpTbv2UMkCdW"
+      }
+    ],
+    "collection": {
+      "name": "Mad Lads",
+      "family": "MAD"
+    }
+  },
+  "price": 23.1,
+  "listStatus": "listed",
+  "tokenAddress": "F3GK9k69LntZruhozF5ZQkD3AjP8EiviHeR435mWDpnu",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "23100000000",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}

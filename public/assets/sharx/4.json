@@ -1,0 +1,65 @@
+{
+  "mintAddress": "GPVVkzeKzqs79DgQGzSdRjzb8Rsmta5wm4F2iVq4NdcE",
+  "owner": "H6B1xriQkPSgpKAfLrTexDWtnuNGga77wGNnuJzwnY3G",
+  "supply": 1,
+  "collection": "sharx",
+  "collectionName": "sharx by sharky.fi",
+  "name": "sharx #9125",
+  "updateAuthority": "GB1yde2ESeWvT4yjiDgnnY9gH7DhcvppPttKVTmVx3Fe",
+  "primarySaleHappened": true,
+  "sellerFeeBasisPoints": 790,
+  "image": "https://arweave.net/hme3Yrvpn3UegqvFMLUyFthnxXHI6EtdOrbKzvljDhI?ext=png",
+  "externalUrl": "https://sharky.fi",
+  "attributes": [
+    {
+      "trait_type": "level",
+      "value": 3
+    },
+    {
+      "trait_type": "attribute count",
+      "value": 2
+    },
+    {
+      "trait_type": "background",
+      "value": "gradient - cerulean"
+    },
+    {
+      "trait_type": "body",
+      "value": "minimalist - green"
+    },
+    {
+      "trait_type": "face",
+      "value": "silly"
+    },
+    {
+      "trait_type": "prop",
+      "value": "paint"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://arweave.net/hme3Yrvpn3UegqvFMLUyFthnxXHI6EtdOrbKzvljDhI?ext=png",
+        "type": "image/png"
+      }
+    ],
+    "edition": 9125,
+    "category": "image",
+    "creators": [
+      {
+        "share": 100,
+        "address": "7YdUTMtUauMjtezjwMzyaAUu1A92qCF1yx8AiiZ38ovs"
+      }
+    ]
+  },
+  "price": 0.356137326,
+  "listStatus": "listed",
+  "tokenAddress": "GJ38STt35wjRFq3N49g4wDLjQ5t4HqrVjetcKMG3qm5g",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "356137326",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}

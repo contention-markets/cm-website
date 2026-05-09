@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+.yarn/
+
+# Next.js
+.next/
+out/
+build/
+
+# Vercel
+.vercel/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Internal docs (never push)
+ENGINEERING/
+**/ENGINEERING/
+
+# Local-only legacy
+_archive/
+**/_archive/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts

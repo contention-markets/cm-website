@@ -1,0 +1,80 @@
+{
+  "mintAddress": "AchP9xziUvSeZFxgqFJyfTGEVm8prNKjWftYH14cGYH",
+  "owner": "runpZTPawgvyKcUkbZrgGj9uPjBkzL5VGMzpS9L58TC",
+  "supply": 1,
+  "collection": "pesky_penguins",
+  "collectionName": "Pesky Penguins",
+  "name": "Pesky Penguin #4189",
+  "updateAuthority": "PeskyAmQxdHK17Rpn1khjoMiuerB8rPVDPYjAyXvqSt",
+  "primarySaleHappened": true,
+  "sellerFeeBasisPoints": 600,
+  "image": "https://cdn.pesky-penguins.com/artwork/4189-pixel.png",
+  "externalUrl": "https://pesky-penguins.com",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Greyteal"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Police Cap"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "None"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Normal"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Kimono"
+    },
+    {
+      "trait_type": "Beak",
+      "value": "None"
+    },
+    {
+      "trait_type": "Hyper-Dimensional?",
+      "value": "false"
+    },
+    {
+      "trait_type": "Art Style",
+      "value": "Pixel"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://cdn.pesky-penguins.com/artwork/4189-pixel.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "share": 40,
+        "address": "pEsKYABNARLiDFYrjbjHDieD5h6gHrvYf9Vru62NX9k"
+      },
+      {
+        "share": 60,
+        "address": "ppTeamTpw1cbC8ybJpppbnoL7xXD9froJNFb5uvoPvb"
+      }
+    ]
+  },
+  "price": 0.2052,
+  "listStatus": "listed",
+  "tokenAddress": "41fNjnwmDFGCf4KuP3T25Bn1ni2mH9Uth4i1HwK6JjB9",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "205200000",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}

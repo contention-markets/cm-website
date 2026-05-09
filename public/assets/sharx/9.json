@@ -1,0 +1,69 @@
+{
+  "mintAddress": "HD4X7HBxgQG6oGJpBxhKXn1q3EquDgKny7jT3PXbKrqN",
+  "owner": "DK7o5t7Q7yW47ZyB99tytNX4cLRN1XWaq7BqnCEeVNiY",
+  "supply": 1,
+  "collection": "sharx",
+  "collectionName": "sharx by sharky.fi",
+  "name": "sharx #5348",
+  "updateAuthority": "GB1yde2ESeWvT4yjiDgnnY9gH7DhcvppPttKVTmVx3Fe",
+  "primarySaleHappened": true,
+  "sellerFeeBasisPoints": 790,
+  "image": "https://arweave.net/1num_FZzrn_dt7GWhA-_NNdGWXyrA00UPTuEgBNYSFU?ext=png",
+  "externalUrl": "https://sharky.fi",
+  "attributes": [
+    {
+      "trait_type": "level",
+      "value": 2
+    },
+    {
+      "trait_type": "attribute count",
+      "value": 3
+    },
+    {
+      "trait_type": "background",
+      "value": "solid - pink"
+    },
+    {
+      "trait_type": "body",
+      "value": "minimalist - yellow"
+    },
+    {
+      "trait_type": "wearable",
+      "value": "necklace - shell"
+    },
+    {
+      "trait_type": "hat",
+      "value": "hairbow - cream"
+    },
+    {
+      "trait_type": "face",
+      "value": "distraught"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://arweave.net/1num_FZzrn_dt7GWhA-_NNdGWXyrA00UPTuEgBNYSFU?ext=png",
+        "type": "image/png"
+      }
+    ],
+    "edition": 5348,
+    "category": "image",
+    "creators": [
+      {
+        "share": 100,
+        "address": "7YdUTMtUauMjtezjwMzyaAUu1A92qCF1yx8AiiZ38ovs"
+      }
+    ]
+  },
+  "price": 0.413,
+  "listStatus": "listed",
+  "tokenAddress": "GT9F7pM9m79o4HBisAeKEr3D1rpaTpT7muo4QTigKQFo",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "413000000",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}

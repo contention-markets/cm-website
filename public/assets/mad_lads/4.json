@@ -1,0 +1,78 @@
+{
+  "mintAddress": "39Q6UyyEjE2fa6u6kWqyCv2uu8FmGSKRiSqwybRrxCay",
+  "owner": "8o2nNTwWopDxmPsBjDktxaUWgUJr3NyrJBogmf8bLTxr",
+  "supply": 1,
+  "collection": "mad_lads",
+  "collectionName": "Mad Lads",
+  "name": "Mad Lads #4658",
+  "updateAuthority": "2RtGg6fsFiiF1EQzHqbd66AhW7R5bWeQGpTbv2UMkCdW",
+  "primarySaleHappened": true,
+  "sellerFeeBasisPoints": 420,
+  "image": "https://madlads.s3.us-west-2.amazonaws.com/images/4658.png",
+  "externalUrl": "https://madlads.com",
+  "attributes": [
+    {
+      "trait_type": "Gender",
+      "value": "Male"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Light"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Serious"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Gambler"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Clothing",
+      "value": "Lads Jersey"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Orange"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "id": "portrait",
+        "uri": "https://madlads.s3.us-west-2.amazonaws.com/images/4658.png",
+        "type": "image/png"
+      },
+      {
+        "id": "rug",
+        "uri": "https://arweave.net/qJ5B6fx5hEt4P7XbicbJQRyTcbyLaV-OQNA1KjzdqOQ/4658.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "share": 100,
+        "address": "2RtGg6fsFiiF1EQzHqbd66AhW7R5bWeQGpTbv2UMkCdW"
+      }
+    ],
+    "collection": {
+      "name": "Mad Lads",
+      "family": "MAD"
+    }
+  },
+  "price": 22.69,
+  "listStatus": "listed",
+  "tokenAddress": "EGGpGBXxTkW1MByrvQgg1nGubm2LuWkbPnNAzj8uu47q",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "22690000000",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "mintAddress": "CxXpYsTy6kmJc3o8iik53bAzZzrmhqTiXwMXu3kHnkGc",
+  "owner": "77cNR75Ag8mGBtSjbV2AFnjZ9NNKVvVSDZL86cGBd961",
+  "supply": 1,
+  "collection": "okay_bears",
+  "collectionName": "Okay Bears",
+  "name": "Okay Bear #7249",
+  "updateAuthority": "4zj22pu8yRyenFHwLmue28CqVmGFgVQt5FmVvwdP5fLa",
+  "primarySaleHappened": true,
+  "sellerFeeBasisPoints": 500,
+  "image": "https://arweave.net/W6tZj9v0jcTsw5VZGZh1iapu1QasYEmgqBWdwsj_eO0",
+  "externalUrl": "https://www.okaybears.com/",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Fur",
+      "value": "Grizzly"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Okay"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Disappointed"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Earrings"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Striped Tee"
+    }
+  ],
+  "price": 0.78,
+  "listStatus": "listed",
+  "tokenAddress": "89KgvgTYWNbc7LgnPYkEamsaRKtQmdPLpXYmhy7wNY9c",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "780000000",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "mintAddress": "JB8SfNesa6DzfgjrvuWFM1oh4YdanprYHRZ8bVjeApjx",
+  "owner": "9Ki4jo7dYYeFWE7VknHiDfHTArUffR89y3fTWKFEU3qT",
+  "supply": 1,
+  "collection": "famous_fox_federation",
+  "collectionName": "Famous Fox Federation",
+  "name": "Fox #4444",
+  "updateAuthority": "3pMvTLUA9NzZQd4gi725p89mvND1wRNQM3C8XEv1hTdA",
+  "primarySaleHappened": true,
+  "sellerFeeBasisPoints": 420,
+  "image": "https://famousfoxes.com/hd/4444.png",
+  "externalUrl": "https://famousfoxes.com",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Sweater Purple"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Natural"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Drool"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Backwards Cap Camo"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Scar"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "url": "https://famousfoxes.com/hd/4444.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "share": 100,
+        "address": "3pMvTLUA9NzZQd4gi725p89mvND1wRNQM3C8XEv1hTdA"
+      }
+    ]
+  },
+  "price": 2.51,
+  "listStatus": "listed",
+  "tokenAddress": "Gpca4oAaTBkrVCe62du8Rq4qY3kutVqWqWZizZZgr5hr",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "2510000000",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}

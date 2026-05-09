@@ -1,0 +1,45 @@
+{
+  "mintAddress": "7ucpJghW6jrKZkXeLYSNowNv6zr5p8Sfvbf2rTfMNwQn",
+  "owner": "4rXXnaUwX7isoBhRnrnyPfTnKZjqUGktegjBqCHdPGcX",
+  "supply": 1,
+  "collection": "okay_bears",
+  "collectionName": "Okay Bears",
+  "name": "Okay Bear #8850",
+  "updateAuthority": "4zj22pu8yRyenFHwLmue28CqVmGFgVQt5FmVvwdP5fLa",
+  "primarySaleHappened": true,
+  "sellerFeeBasisPoints": 500,
+  "image": "https://arweave.net/N7keCYIYvteDhbXh-gWF1Rl5XhdoQ1i-x62wKip6cSA",
+  "externalUrl": "https://www.okaybears.com/",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Grey"
+    },
+    {
+      "trait_type": "Fur",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Okay"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Happy"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Golf Polo"
+    }
+  ],
+  "price": 0.785,
+  "listStatus": "listed",
+  "tokenAddress": "55xyfCLLkqtr5atTpfGb2q3wbJDP24LVPNWVD86PdFtN",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "785000000",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}

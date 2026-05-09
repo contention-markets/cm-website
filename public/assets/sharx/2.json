@@ -1,0 +1,61 @@
+{
+  "mintAddress": "8cT8dsg39PFtRSBLPXxVJ7kgDDYjaTX89k2F8dtoRdYM",
+  "owner": "H6B1xriQkPSgpKAfLrTexDWtnuNGga77wGNnuJzwnY3G",
+  "supply": 1,
+  "collection": "sharx",
+  "collectionName": "sharx by sharky.fi",
+  "name": "sharx #2855",
+  "updateAuthority": "GB1yde2ESeWvT4yjiDgnnY9gH7DhcvppPttKVTmVx3Fe",
+  "primarySaleHappened": true,
+  "sellerFeeBasisPoints": 790,
+  "image": "https://arweave.net/SahxJTjjZ9VukAFiW5vz506X-7_HPi2Yn1jkEKpCpzs?ext=png",
+  "externalUrl": "https://sharky.fi",
+  "attributes": [
+    {
+      "trait_type": "level",
+      "value": 3
+    },
+    {
+      "trait_type": "attribute count",
+      "value": 1
+    },
+    {
+      "trait_type": "background",
+      "value": "wallpaper - sharky yellow"
+    },
+    {
+      "trait_type": "body",
+      "value": "ombre - ocean"
+    },
+    {
+      "trait_type": "face",
+      "value": "toothy"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://arweave.net/SahxJTjjZ9VukAFiW5vz506X-7_HPi2Yn1jkEKpCpzs?ext=png",
+        "type": "image/png"
+      }
+    ],
+    "edition": 2855,
+    "category": "image",
+    "creators": [
+      {
+        "share": 100,
+        "address": "7YdUTMtUauMjtezjwMzyaAUu1A92qCF1yx8AiiZ38ovs"
+      }
+    ]
+  },
+  "price": 0.356137326,
+  "listStatus": "listed",
+  "tokenAddress": "7ppHqRuAr1qauRU4qDQuAgXkyauiEiWky6d4MCP9yuD7",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "356137326",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}

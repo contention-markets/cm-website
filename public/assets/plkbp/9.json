@@ -1,0 +1,91 @@
+{
+  "mintAddress": "AVt4aCo3awN4gw8HrBTafEA2pLumwGhS8zbf3WhP8Q3V",
+  "owner": "FQgLydCXXJLqk1Wn2UH2atHPThA2o4N1mzfv2YdJVeat",
+  "supply": 1,
+  "collection": "plkbp",
+  "collectionName": "Pet Legends Kin Battle Pets",
+  "name": "Kin Battle Pet #1007",
+  "updateAuthority": "8da6cRSoU9W3JfRdt4iqxMNezbqnX1eszpPb1Xt1dwYK",
+  "primarySaleHappened": false,
+  "sellerFeeBasisPoints": 500,
+  "image": "https://l5kow5zv6uq65igeqtgvurlfo5xoy7krstx7djknmey26e3vcthq.arweave.net/X1TrdzX1Ie6gxITNWkVld27sfVGU7_GlTWExrxN1FM8",
+  "animationUrl": "",
+  "externalUrl": "",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Pet Legends Battle Pet"
+    },
+    {
+      "trait_type": "Level",
+      "value": 0
+    },
+    {
+      "trait_type": "Community",
+      "value": "KIN"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Dark",
+      "value": "40"
+    },
+    {
+      "trait_type": "Rock",
+      "value": "0"
+    },
+    {
+      "trait_type": "Energy",
+      "value": "0"
+    },
+    {
+      "trait_type": "Light",
+      "value": "40"
+    },
+    {
+      "trait_type": "Fire",
+      "value": "0"
+    },
+    {
+      "trait_type": "Ice",
+      "value": "0"
+    },
+    {
+      "trait_type": "Sky",
+      "value": "0"
+    },
+    {
+      "trait_type": "Metal",
+      "value": "0"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://l5kow5zv6uq65igeqtgvurlfo5xoy7krstx7djknmey26e3vcthq.arweave.net/X1TrdzX1Ie6gxITNWkVld27sfVGU7_GlTWExrxN1FM8",
+        "type": "image/png"
+      }
+    ],
+    "category": "",
+    "creators": [
+      {
+        "share": 100,
+        "address": "FAgUqxrEcsddwqycovaU4XLWYTfUPbMHPteGnysKe8Tq",
+        "verified": false
+      }
+    ]
+  },
+  "isCompressed": true,
+  "price": 0.02,
+  "listStatus": "listed",
+  "tokenAddress": "AVt4aCo3awN4gw8HrBTafEA2pLumwGhS8zbf3WhP8Q3V",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "20000000",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}

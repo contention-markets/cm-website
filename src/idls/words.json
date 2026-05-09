@@ -1,0 +1,1447 @@
+{
+  "address": "3XA1rz4f83FoTyvB7g1XHhsb4bx9SrUSBDtpLtAttU4o",
+  "metadata": {
+    "name": "words",
+    "version": "0.1.0",
+    "spec": "0.1.0",
+    "description": "Magic Words — Hidden word game on MagicBlock PER (Private Ephemeral Rollup)"
+  },
+  "instructions": [
+    {
+      "name": "create_ephemeral_game",
+      "docs": [
+        "Create an ephemeral game directly on ER — FREE."
+      ],
+      "discriminator": [
+        131,
+        67,
+        160,
+        56,
+        213,
+        187,
+        66,
+        122
+      ],
+      "accounts": [
+        {
+          "name": "host",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "sponsor",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  119,
+                  111,
+                  114,
+                  100,
+                  115,
+                  95,
+                  115,
+                  112,
+                  111,
+                  110,
+                  115,
+                  111,
+                  114
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "game",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  109,
+                  97,
+                  103,
+                  105,
+                  99,
+                  95,
+                  119,
+                  111,
+                  114,
+                  100,
+                  115
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "host"
+              }
+            ]
+          }
+        },
+        {
+          "name": "hidden_word",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  104,
+                  105,
+                  100,
+                  100,
+                  101,
+                  110,
+                  95,
+                  119,
+                  111,
+                  114,
+                  100
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "host"
+              }
+            ]
+          }
+        },
+        {
+          "name": "hidden_word_permission",
+          "docs": [
+            "Client passes the permission PDA derived from Permission::find_pda(hidden_word)."
+          ],
+          "writable": true
+        },
+        {
+          "name": "permission_program",
+          "address": "ACLseoPoyC3cBqoUtkbjZ4aDrkurZW86v19pXz2XQnp1"
+        },
+        {
+          "name": "system_program",
+          "docs": [
+            "System program for permission-PDA rent."
+          ],
+          "address": "11111111111111111111111111111111"
+        },
+        {
+          "name": "vault",
+          "writable": true,
+          "address": "MagicVau1t999999999999999999999999999999999"
+        },
+        {
+          "name": "magic_program",
+          "address": "Magic11111111111111111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "word",
+          "type": {
+            "array": [
+              "u8",
+              20
+            ]
+          }
+        },
+        {
+          "name": "word_len",
+          "type": "u8"
+        },
+        {
+          "name": "max_wrong",
+          "type": "u8"
+        },
+        {
+          "name": "mode",
+          "type": "u8"
+        }
+      ]
+    },
+    {
+      "name": "create_game",
+      "docs": [
+        "Create a new Magic Words game. Host picks the word.",
+        "The word is hashed and committed publicly. The actual word",
+        "goes into the hidden_word account (PER-protected)."
+      ],
+      "discriminator": [
+        124,
+        69,
+        75,
+        66,
+        184,
+        220,
+        72,
+        206
+      ],
+      "accounts": [
+        {
+          "name": "game",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  109,
+                  97,
+                  103,
+                  105,
+                  99,
+                  95,
+                  119,
+                  111,
+                  114,
+                  100,
+                  115
+                ]
+              },
+              {
+                "kind": "arg",
+                "path": "game_id"
+              }
+            ]
+          }
+        },
+        {
+          "name": "hidden_word",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  104,
+                  105,
+                  100,
+                  100,
+                  101,
+                  110,
+                  95,
+                  119,
+                  111,
+                  114,
+                  100
+                ]
+              },
+              {
+                "kind": "arg",
+                "path": "game_id"
+              }
+            ]
+          }
+        },
+        {
+          "name": "host",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "game_id",
+          "type": "u64"
+        },
+        {
+          "name": "word",
+          "type": {
+            "array": [
+              "u8",
+              20
+            ]
+          }
+        },
+        {
+          "name": "word_len",
+          "type": "u8"
+        },
+        {
+          "name": "max_wrong",
+          "type": "u8"
+        },
+        {
+          "name": "mode",
+          "type": "u8"
+        }
+      ]
+    },
+    {
+      "name": "delegate_game",
+      "docs": [
+        "Delegate the game state to ER for real-time play."
+      ],
+      "discriminator": [
+        116,
+        183,
+        70,
+        107,
+        112,
+        223,
+        122,
+        210
+      ],
+      "accounts": [
+        {
+          "name": "buffer_game",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  98,
+                  117,
+                  102,
+                  102,
+                  101,
+                  114
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "game"
+              }
+            ],
+            "program": {
+              "kind": "const",
+              "value": [
+                37,
+                112,
+                253,
+                195,
+                20,
+                10,
+                75,
+                166,
+                246,
+                249,
+                5,
+                198,
+                230,
+                141,
+                80,
+                247,
+                138,
+                186,
+                73,
+                161,
+                150,
+                16,
+                92,
+                228,
+                195,
+                132,
+                251,
+                116,
+                60,
+                109,
+                41,
+                176
+              ]
+            }
+          }
+        },
+        {
+          "name": "delegation_record_game",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  100,
+                  101,
+                  108,
+                  101,
+                  103,
+                  97,
+                  116,
+                  105,
+                  111,
+                  110
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "game"
+              }
+            ],
+            "program": {
+              "kind": "account",
+              "path": "delegation_program"
+            }
+          }
+        },
+        {
+          "name": "delegation_metadata_game",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  100,
+                  101,
+                  108,
+                  101,
+                  103,
+                  97,
+                  116,
+                  105,
+                  111,
+                  110,
+                  45,
+                  109,
+                  101,
+                  116,
+                  97,
+                  100,
+                  97,
+                  116,
+                  97
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "game"
+              }
+            ],
+            "program": {
+              "kind": "account",
+              "path": "delegation_program"
+            }
+          }
+        },
+        {
+          "name": "game",
+          "writable": true
+        },
+        {
+          "name": "payer",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "owner_program",
+          "address": "3XA1rz4f83FoTyvB7g1XHhsb4bx9SrUSBDtpLtAttU4o"
+        },
+        {
+          "name": "delegation_program",
+          "address": "DELeGGvXpWV2fqJUhqcF5ZSYMS4JTLjteaAMARRSaeSh"
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": []
+    },
+    {
+      "name": "delegate_hidden",
+      "docs": [
+        "Delegate the hidden word to ER (will be PER-protected)."
+      ],
+      "discriminator": [
+        131,
+        252,
+        46,
+        243,
+        91,
+        217,
+        22,
+        111
+      ],
+      "accounts": [
+        {
+          "name": "buffer_hidden_word",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  98,
+                  117,
+                  102,
+                  102,
+                  101,
+                  114
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "hidden_word"
+              }
+            ],
+            "program": {
+              "kind": "const",
+              "value": [
+                37,
+                112,
+                253,
+                195,
+                20,
+                10,
+                75,
+                166,
+                246,
+                249,
+                5,
+                198,
+                230,
+                141,
+                80,
+                247,
+                138,
+                186,
+                73,
+                161,
+                150,
+                16,
+                92,
+                228,
+                195,
+                132,
+                251,
+                116,
+                60,
+                109,
+                41,
+                176
+              ]
+            }
+          }
+        },
+        {
+          "name": "delegation_record_hidden_word",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  100,
+                  101,
+                  108,
+                  101,
+                  103,
+                  97,
+                  116,
+                  105,
+                  111,
+                  110
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "hidden_word"
+              }
+            ],
+            "program": {
+              "kind": "account",
+              "path": "delegation_program"
+            }
+          }
+        },
+        {
+          "name": "delegation_metadata_hidden_word",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  100,
+                  101,
+                  108,
+                  101,
+                  103,
+                  97,
+                  116,
+                  105,
+                  111,
+                  110,
+                  45,
+                  109,
+                  101,
+                  116,
+                  97,
+                  100,
+                  97,
+                  116,
+                  97
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "hidden_word"
+              }
+            ],
+            "program": {
+              "kind": "account",
+              "path": "delegation_program"
+            }
+          }
+        },
+        {
+          "name": "hidden_word",
+          "writable": true
+        },
+        {
+          "name": "payer",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "owner_program",
+          "address": "3XA1rz4f83FoTyvB7g1XHhsb4bx9SrUSBDtpLtAttU4o"
+        },
+        {
+          "name": "delegation_program",
+          "address": "DELeGGvXpWV2fqJUhqcF5ZSYMS4JTLjteaAMARRSaeSh"
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": []
+    },
+    {
+      "name": "delegate_sponsor",
+      "docs": [
+        "Delegate sponsor to ER for ephemeral game creation."
+      ],
+      "discriminator": [
+        103,
+        51,
+        15,
+        141,
+        25,
+        188,
+        197,
+        245
+      ],
+      "accounts": [
+        {
+          "name": "buffer_sponsor",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  98,
+                  117,
+                  102,
+                  102,
+                  101,
+                  114
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "sponsor"
+              }
+            ],
+            "program": {
+              "kind": "const",
+              "value": [
+                37,
+                112,
+                253,
+                195,
+                20,
+                10,
+                75,
+                166,
+                246,
+                249,
+                5,
+                198,
+                230,
+                141,
+                80,
+                247,
+                138,
+                186,
+                73,
+                161,
+                150,
+                16,
+                92,
+                228,
+                195,
+                132,
+                251,
+                116,
+                60,
+                109,
+                41,
+                176
+              ]
+            }
+          }
+        },
+        {
+          "name": "delegation_record_sponsor",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  100,
+                  101,
+                  108,
+                  101,
+                  103,
+                  97,
+                  116,
+                  105,
+                  111,
+                  110
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "sponsor"
+              }
+            ],
+            "program": {
+              "kind": "account",
+              "path": "delegation_program"
+            }
+          }
+        },
+        {
+          "name": "delegation_metadata_sponsor",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  100,
+                  101,
+                  108,
+                  101,
+                  103,
+                  97,
+                  116,
+                  105,
+                  111,
+                  110,
+                  45,
+                  109,
+                  101,
+                  116,
+                  97,
+                  100,
+                  97,
+                  116,
+                  97
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "sponsor"
+              }
+            ],
+            "program": {
+              "kind": "account",
+              "path": "delegation_program"
+            }
+          }
+        },
+        {
+          "name": "sponsor",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  119,
+                  111,
+                  114,
+                  100,
+                  115,
+                  95,
+                  115,
+                  112,
+                  111,
+                  110,
+                  115,
+                  111,
+                  114
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "payer",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "owner_program",
+          "address": "3XA1rz4f83FoTyvB7g1XHhsb4bx9SrUSBDtpLtAttU4o"
+        },
+        {
+          "name": "delegation_program",
+          "address": "DELeGGvXpWV2fqJUhqcF5ZSYMS4JTLjteaAMARRSaeSh"
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": []
+    },
+    {
+      "name": "finish_game",
+      "docs": [
+        "Commit game to L1 (permanent record)."
+      ],
+      "discriminator": [
+        168,
+        120,
+        86,
+        113,
+        64,
+        116,
+        2,
+        146
+      ],
+      "accounts": [
+        {
+          "name": "game",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  109,
+                  97,
+                  103,
+                  105,
+                  99,
+                  95,
+                  119,
+                  111,
+                  114,
+                  100,
+                  115
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "game.game_id",
+                "account": "GameState"
+              }
+            ]
+          }
+        },
+        {
+          "name": "payer",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "magic_program",
+          "address": "Magic11111111111111111111111111111111111111"
+        },
+        {
+          "name": "magic_context",
+          "writable": true,
+          "address": "MagicContext1111111111111111111111111111111"
+        }
+      ],
+      "args": []
+    },
+    {
+      "name": "guess_letter",
+      "docs": [
+        "Guess a letter. The program checks the hidden word inside PER.",
+        "Reveals matching positions or increments wrong guesses."
+      ],
+      "discriminator": [
+        190,
+        7,
+        97,
+        9,
+        121,
+        230,
+        241,
+        55
+      ],
+      "accounts": [
+        {
+          "name": "game",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  109,
+                  97,
+                  103,
+                  105,
+                  99,
+                  95,
+                  119,
+                  111,
+                  114,
+                  100,
+                  115
+                ]
+              },
+              {
+                "kind": "arg",
+                "path": "game_id"
+              }
+            ]
+          }
+        },
+        {
+          "name": "hidden_word",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  104,
+                  105,
+                  100,
+                  100,
+                  101,
+                  110,
+                  95,
+                  119,
+                  111,
+                  114,
+                  100
+                ]
+              },
+              {
+                "kind": "arg",
+                "path": "game_id"
+              }
+            ]
+          }
+        },
+        {
+          "name": "player",
+          "signer": true
+        }
+      ],
+      "args": [
+        {
+          "name": "_game_id",
+          "type": "u64"
+        },
+        {
+          "name": "letter",
+          "type": "u8"
+        }
+      ]
+    },
+    {
+      "name": "init_sponsor",
+      "docs": [
+        "Initialize the pool sponsor PDA (one-time setup)."
+      ],
+      "discriminator": [
+        171,
+        84,
+        165,
+        61,
+        98,
+        53,
+        242,
+        108
+      ],
+      "accounts": [
+        {
+          "name": "sponsor",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  119,
+                  111,
+                  114,
+                  100,
+                  115,
+                  95,
+                  115,
+                  112,
+                  111,
+                  110,
+                  115,
+                  111,
+                  114
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "authority",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": []
+    },
+    {
+      "name": "join_game",
+      "docs": [
+        "Join an existing game as a guesser."
+      ],
+      "discriminator": [
+        107,
+        112,
+        18,
+        38,
+        56,
+        173,
+        60,
+        128
+      ],
+      "accounts": [
+        {
+          "name": "game",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  109,
+                  97,
+                  103,
+                  105,
+                  99,
+                  95,
+                  119,
+                  111,
+                  114,
+                  100,
+                  115
+                ]
+              },
+              {
+                "kind": "arg",
+                "path": "game_id"
+              }
+            ]
+          }
+        },
+        {
+          "name": "player",
+          "writable": true,
+          "signer": true
+        }
+      ],
+      "args": [
+        {
+          "name": "_game_id",
+          "type": "u64"
+        }
+      ]
+    },
+    {
+      "name": "process_undelegation",
+      "discriminator": [
+        196,
+        28,
+        41,
+        206,
+        48,
+        37,
+        51,
+        167
+      ],
+      "accounts": [
+        {
+          "name": "base_account",
+          "writable": true
+        },
+        {
+          "name": "buffer"
+        },
+        {
+          "name": "payer",
+          "writable": true
+        },
+        {
+          "name": "system_program"
+        }
+      ],
+      "args": [
+        {
+          "name": "account_seeds",
+          "type": {
+            "vec": "bytes"
+          }
+        }
+      ]
+    },
+    {
+      "name": "reveal_word",
+      "docs": [
+        "Reveal the word at game end. Removes PER permissions so anyone can verify.",
+        "Also verifies the hash matches — proves the host didn't change the word."
+      ],
+      "discriminator": [
+        25,
+        99,
+        15,
+        192,
+        51,
+        33,
+        14,
+        184
+      ],
+      "accounts": [
+        {
+          "name": "game",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  109,
+                  97,
+                  103,
+                  105,
+                  99,
+                  95,
+                  119,
+                  111,
+                  114,
+                  100,
+                  115
+                ]
+              },
+              {
+                "kind": "arg",
+                "path": "game_id"
+              }
+            ]
+          }
+        },
+        {
+          "name": "hidden_word",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  104,
+                  105,
+                  100,
+                  100,
+                  101,
+                  110,
+                  95,
+                  119,
+                  111,
+                  114,
+                  100
+                ]
+              },
+              {
+                "kind": "arg",
+                "path": "game_id"
+              }
+            ]
+          }
+        },
+        {
+          "name": "payer",
+          "writable": true,
+          "signer": true
+        }
+      ],
+      "args": [
+        {
+          "name": "_game_id",
+          "type": "u64"
+        }
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "name": "GameState",
+      "discriminator": [
+        144,
+        94,
+        208,
+        172,
+        248,
+        99,
+        134,
+        120
+      ]
+    },
+    {
+      "name": "HiddenWord",
+      "discriminator": [
+        88,
+        246,
+        218,
+        149,
+        173,
+        232,
+        90,
+        203
+      ]
+    },
+    {
+      "name": "PoolSponsor",
+      "discriminator": [
+        93,
+        111,
+        199,
+        132,
+        247,
+        31,
+        43,
+        172
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "code": 6000,
+      "name": "InvalidState",
+      "msg": "Invalid game state."
+    },
+    {
+      "code": 6001,
+      "name": "InvalidWordLength",
+      "msg": "Word must be 3-20 lowercase letters."
+    },
+    {
+      "code": 6002,
+      "name": "InvalidCharacter",
+      "msg": "Only lowercase a-z allowed."
+    },
+    {
+      "code": 6003,
+      "name": "InvalidLives",
+      "msg": "Invalid number of lives (1-12)."
+    },
+    {
+      "code": 6004,
+      "name": "HostCantGuess",
+      "msg": "Host cannot guess their own word."
+    },
+    {
+      "code": 6005,
+      "name": "GameFull",
+      "msg": "Game is full."
+    },
+    {
+      "code": 6006,
+      "name": "AlreadyJoined",
+      "msg": "Already joined this game."
+    },
+    {
+      "code": 6007,
+      "name": "NotYourTurn",
+      "msg": "Not your turn."
+    },
+    {
+      "code": 6008,
+      "name": "NotInGame",
+      "msg": "Not in this game."
+    },
+    {
+      "code": 6009,
+      "name": "AlreadyGuessed",
+      "msg": "Letter already guessed."
+    },
+    {
+      "code": 6010,
+      "name": "GameNotOver",
+      "msg": "Game is not over yet."
+    },
+    {
+      "code": 6011,
+      "name": "HashMismatch",
+      "msg": "Word hash mismatch — word was tampered with!"
+    }
+  ],
+  "types": [
+    {
+      "name": "GameState",
+      "docs": [
+        "Fixed layout for CM v2.1 permissionless resolve adapter. Field order is",
+        "LOAD-BEARING — do not reorder without updating register_game_program_v2",
+        "offsets on-chain.",
+        "",
+        "Byte offsets (after 8-byte Anchor discriminator):",
+        "8..16 : game_id",
+        "16..48 : p1 (Pubkey)          ← host/word-chooser",
+        "48..80 : p2 (Pubkey)          ← first guesser (Duel mode)",
+        "80..81 : status (u8)          ← 0=waiting, 1=active, 2=finished",
+        "81..82 : winner_flag (u8)     ← 0=draw, 1=p1, 2=p2",
+        "82..114: word_hash [u8; 32]",
+        "... (rest follows)"
+      ],
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "game_id",
+            "type": "u64"
+          },
+          {
+            "name": "p1",
+            "type": "pubkey"
+          },
+          {
+            "name": "p2",
+            "type": "pubkey"
+          },
+          {
+            "name": "status",
+            "type": "u8"
+          },
+          {
+            "name": "winner_flag",
+            "type": "u8"
+          },
+          {
+            "name": "word_hash",
+            "type": {
+              "array": [
+                "u8",
+                32
+              ]
+            }
+          },
+          {
+            "name": "word_len",
+            "type": "u8"
+          },
+          {
+            "name": "revealed",
+            "type": {
+              "array": [
+                "u8",
+                20
+              ]
+            }
+          },
+          {
+            "name": "guessed_letters",
+            "type": "u32"
+          },
+          {
+            "name": "wrong_guesses",
+            "type": "u8"
+          },
+          {
+            "name": "max_wrong",
+            "type": "u8"
+          },
+          {
+            "name": "winner_pubkey",
+            "type": "pubkey"
+          },
+          {
+            "name": "player_count",
+            "type": "u8"
+          },
+          {
+            "name": "players",
+            "type": {
+              "array": [
+                "pubkey",
+                8
+              ]
+            }
+          },
+          {
+            "name": "current_turn",
+            "type": "u8"
+          },
+          {
+            "name": "mode",
+            "type": "u8"
+          },
+          {
+            "name": "total_guesses",
+            "type": "u16"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HiddenWord",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "game_id",
+            "type": "u64"
+          },
+          {
+            "name": "word",
+            "type": {
+              "array": [
+                "u8",
+                20
+              ]
+            }
+          },
+          {
+            "name": "word_len",
+            "type": "u8"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PoolSponsor",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "authority",
+            "type": "pubkey"
+          },
+          {
+            "name": "games_created",
+            "type": "u64"
+          }
+        ]
+      }
+    }
+  ]
+}

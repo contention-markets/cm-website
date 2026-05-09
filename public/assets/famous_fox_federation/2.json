@@ -1,0 +1,63 @@
+{
+  "mintAddress": "HPG5YdU5vNdPRDfMDjSAvTZHk9ABrqnqGQD1SWtpTgcK",
+  "owner": "8Gwdguqu9B96eSGFWJbz49PRuKRT5nZNLBDttm4mDQrh",
+  "supply": 1,
+  "collection": "famous_fox_federation",
+  "collectionName": "Famous Fox Federation",
+  "name": "Fox #5938",
+  "updateAuthority": "3pMvTLUA9NzZQd4gi725p89mvND1wRNQM3C8XEv1hTdA",
+  "primarySaleHappened": true,
+  "sellerFeeBasisPoints": 420,
+  "image": "https://famousfoxes.com/hd/5938.png",
+  "externalUrl": "https://famousfoxes.com",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Mint"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Hoodie Blue"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Natural"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Grin"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Bucket Hat Ivory"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Wink"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "url": "https://famousfoxes.com/hd/5938.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "share": 100,
+        "address": "3pMvTLUA9NzZQd4gi725p89mvND1wRNQM3C8XEv1hTdA"
+      }
+    ]
+  },
+  "price": 2.4609,
+  "listStatus": "listed",
+  "tokenAddress": "695szwKG2zaocjpQC4LyAP9ioaepwoyFinwUCrmjm3Nx",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "2460900000",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}

@@ -1,0 +1,2566 @@
+[
+  {
+    "name": "Kin Battle Pet #1045",
+    "symbol": "PET",
+    "collection": "plkbp",
+    "mint": "24A1UhCVSokhbmD85hnVcw3MFdiv11iXX8jQZK5BcovU",
+    "image": "plkbp/6.png",
+    "traits": {
+      "Type": "Pet Legends Battle Pet",
+      "Level": 0,
+      "Community": "KIN",
+      "Rarity": "Uncommon",
+      "Dark": "40",
+      "Rock": "0",
+      "Energy": "0",
+      "Light": "40",
+      "Fire": "0",
+      "Ice": "0",
+      "Sky": "0",
+      "Metal": "0"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Kin Battle Pet #1684",
+    "symbol": "PET",
+    "collection": "plkbp",
+    "mint": "5jHRPgaXZSPh5cMSHgK5ksMJTkFp7pdHxpbyjwQ2zuKR",
+    "image": "plkbp/7.png",
+    "traits": {
+      "Type": "Pet Legends Battle Pet",
+      "Level": 0,
+      "Community": "KIN",
+      "Rarity": "Common",
+      "Dark": "30",
+      "Rock": "0",
+      "Energy": "0",
+      "Light": "30",
+      "Fire": "0",
+      "Ice": "0",
+      "Sky": "0",
+      "Metal": "0"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Kin Battle Pet #1116",
+    "symbol": "PET",
+    "collection": "plkbp",
+    "mint": "6XhcniVZetbycgTK1esRGBKshXtBrpwsefZoMWNN6me8",
+    "image": "plkbp/0.png",
+    "traits": {
+      "Type": "Pet Legends Battle Pet",
+      "Level": 0,
+      "Community": "KIN",
+      "Rarity": "Common",
+      "Dark": "30",
+      "Rock": "0",
+      "Energy": "0",
+      "Light": "30",
+      "Fire": "0",
+      "Ice": "0",
+      "Sky": "0",
+      "Metal": "0"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Kin Battle Pet #1520",
+    "symbol": "PET",
+    "collection": "plkbp",
+    "mint": "7QqtML8KE521AUQX4Zn18rNy9DcAC6JJcfSoUjJ7bqjr",
+    "image": "plkbp/1.png",
+    "traits": {
+      "Type": "Pet Legends Battle Pet",
+      "Level": 0,
+      "Community": "KIN",
+      "Rarity": "Uncommon",
+      "Dark": "40",
+      "Rock": "0",
+      "Energy": "0",
+      "Light": "40",
+      "Fire": "0",
+      "Ice": "0",
+      "Sky": "0",
+      "Metal": "0"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Kin Battle Pet #1095",
+    "symbol": "PET",
+    "collection": "plkbp",
+    "mint": "8LZhZcdWJvg8UnPEmZehggNQY5ud7whvrhreNnFbAxWW",
+    "image": "plkbp/2.png",
+    "traits": {
+      "Type": "Pet Legends Battle Pet",
+      "Level": 0,
+      "Community": "KIN",
+      "Rarity": "Common",
+      "Dark": "30",
+      "Rock": "0",
+      "Energy": "0",
+      "Light": "30",
+      "Fire": "0",
+      "Ice": "0",
+      "Sky": "0",
+      "Metal": "0"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Kin Battle Pet #1432",
+    "symbol": "PET",
+    "collection": "plkbp",
+    "mint": "Ahu6groGSYjQoyMTLw7kURqDnC7qaQwsUULKhZuJj23H",
+    "image": "plkbp/3.png",
+    "traits": {
+      "Type": "Pet Legends Battle Pet",
+      "Level": 0,
+      "Community": "KIN",
+      "Rarity": "Rare",
+      "Dark": "50",
+      "Rock": "0",
+      "Energy": "0",
+      "Light": "50",
+      "Fire": "0",
+      "Ice": "0",
+      "Sky": "0",
+      "Metal": "0"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Kin Battle Pet #1005",
+    "symbol": "PET",
+    "collection": "plkbp",
+    "mint": "3pFzBMfqdAaqdnWYpyKuRiuGZJt4gPtqShwQ6bWa79Ys",
+    "image": "plkbp/8.png",
+    "traits": {
+      "Type": "Pet Legends Battle Pet",
+      "Level": 0,
+      "Community": "KIN",
+      "Rarity": "Common",
+      "Dark": "30",
+      "Rock": "0",
+      "Energy": "0",
+      "Light": "30",
+      "Fire": "0",
+      "Ice": "0",
+      "Sky": "0",
+      "Metal": "0"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Kin Battle Pet #1297",
+    "symbol": "PET",
+    "collection": "plkbp",
+    "mint": "FgBHZBU4Z6zcAsaDNjgDhsK562z55198GXWDM58cDvKS",
+    "image": "plkbp/4.png",
+    "traits": {
+      "Type": "Pet Legends Battle Pet",
+      "Level": 0,
+      "Community": "KIN",
+      "Rarity": "Uncommon",
+      "Dark": "40",
+      "Rock": "0",
+      "Energy": "0",
+      "Light": "40",
+      "Fire": "0",
+      "Ice": "0",
+      "Sky": "0",
+      "Metal": "0"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Kin Battle Pet #1421",
+    "symbol": "PET",
+    "collection": "plkbp",
+    "mint": "RGi7N4F15d6ZTp7nouugwKwdpwjxZGnTEWGQhKS42XU",
+    "image": "plkbp/5.png",
+    "traits": {
+      "Type": "Pet Legends Battle Pet",
+      "Level": 0,
+      "Community": "KIN",
+      "Rarity": "Common",
+      "Dark": "30",
+      "Rock": "0",
+      "Energy": "0",
+      "Light": "30",
+      "Fire": "0",
+      "Ice": "0",
+      "Sky": "0",
+      "Metal": "0"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Kin Battle Pet #1007",
+    "symbol": "PET",
+    "collection": "plkbp",
+    "mint": "AVt4aCo3awN4gw8HrBTafEA2pLumwGhS8zbf3WhP8Q3V",
+    "image": "plkbp/9.png",
+    "traits": {
+      "Type": "Pet Legends Battle Pet",
+      "Level": 0,
+      "Community": "KIN",
+      "Rarity": "Uncommon",
+      "Dark": "40",
+      "Rock": "0",
+      "Energy": "0",
+      "Light": "40",
+      "Fire": "0",
+      "Ice": "0",
+      "Sky": "0",
+      "Metal": "0"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Okay Bear #5196",
+    "symbol": "PET",
+    "collection": "okay_bears",
+    "mint": "2MmJgcyEtTSgaRButigHnKoSi9vSfuHYJGTV2WKK52Hj",
+    "image": "okay_bears/6.png",
+    "traits": {
+      "Background": "Cream",
+      "Fur": "Dark Brown",
+      "Mouth": "Hmm",
+      "Eyes": "Happy",
+      "Clothes": "Utility Vest"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Okay Bear #7249",
+    "symbol": "PET",
+    "collection": "okay_bears",
+    "mint": "CxXpYsTy6kmJc3o8iik53bAzZzrmhqTiXwMXu3kHnkGc",
+    "image": "okay_bears/7.png",
+    "traits": {
+      "Background": "Green",
+      "Fur": "Grizzly",
+      "Mouth": "Okay",
+      "Eyes": "Disappointed",
+      "Hat": "Earrings",
+      "Clothes": "Striped Tee"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Okay Bear #6950",
+    "symbol": "PET",
+    "collection": "okay_bears",
+    "mint": "Ds4r3wStQcE9HfCA58MZGL9tDGruhRHk3u8Dmg8PUYNN",
+    "image": "okay_bears/0.png",
+    "traits": {
+      "Background": "Green",
+      "Fur": "Albino",
+      "Mouth": "Wry",
+      "Eyes": "Annoyed",
+      "Clothes": "Sling Pack"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Okay Bear #5117",
+    "symbol": "PET",
+    "collection": "okay_bears",
+    "mint": "HNryfwSXjV38mXm2pHshnRvDuMJNSCAHnHg7h8ejZby4",
+    "image": "okay_bears/1.png",
+    "traits": {
+      "Background": "Yellow",
+      "Fur": "Ginger",
+      "Mouth": "Huh",
+      "Eyes": "Annoyed",
+      "Hat": "Skate Cap",
+      "Clothes": "Sleeveless Tee"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Okay Bear #9120",
+    "symbol": "PET",
+    "collection": "okay_bears",
+    "mint": "5Bb7Qbc9fzWZQnAc78eVBsRh9remAvpP4PvZ28FDfyjN",
+    "image": "okay_bears/2.png",
+    "traits": {
+      "Background": "Grey",
+      "Fur": "Sand",
+      "Mouth": "Gah",
+      "Eyes": "Defeated",
+      "Clothes": "Hawaiian Shirt"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Okay Bear #8829",
+    "symbol": "PET",
+    "collection": "okay_bears",
+    "mint": "4sAuFuGzVWfiA638SASTNcojKJLqApAdyP7rWcFXV3vL",
+    "image": "okay_bears/3.png",
+    "traits": {
+      "Background": "Green",
+      "Fur": "Tan",
+      "Mouth": "Sneer",
+      "Eyes": "Interested",
+      "Clothes": "Hooded Cardigan"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Okay Bear #8850",
+    "symbol": "PET",
+    "collection": "okay_bears",
+    "mint": "7ucpJghW6jrKZkXeLYSNowNv6zr5p8Sfvbf2rTfMNwQn",
+    "image": "okay_bears/8.png",
+    "traits": {
+      "Background": "Grey",
+      "Fur": "Black",
+      "Mouth": "Okay",
+      "Eyes": "Happy",
+      "Clothes": "Golf Polo"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Okay Bear #7939",
+    "symbol": "PET",
+    "collection": "okay_bears",
+    "mint": "C5ZeVUR24fSAJpYcwwKGyYE8yCRh4Vh9L7cszAjGuheJ",
+    "image": "okay_bears/4.png",
+    "traits": {
+      "Background": "Green",
+      "Fur": "Sand",
+      "Mouth": "Raspberry",
+      "Eyes": "Sarcastic",
+      "Hat": "Classic Cap",
+      "Clothes": "Sling Pack"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Okay Bear #7162",
+    "symbol": "PET",
+    "collection": "okay_bears",
+    "mint": "EzPHPgsHQpt219V91JgNctNGTwyJSCQkbAqAR6nFJ3qn",
+    "image": "okay_bears/5.png",
+    "traits": {
+      "Background": "Yellow",
+      "Fur": "Sand",
+      "Mouth": "Gah",
+      "Eyes": "Sarcastic",
+      "Hat": "Beret"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Okay Bear #6009",
+    "symbol": "PET",
+    "collection": "okay_bears",
+    "mint": "Hs97fBzddUF6iqnVnKR3b99N3cenZCQ68sEZ1Qq7vzEn",
+    "image": "okay_bears/9.png",
+    "traits": {
+      "Background": "Purple",
+      "Fur": "Dark Brown",
+      "Mouth": "Clean Smile",
+      "Eyes": "Defeated",
+      "Hat": "Classic Cap",
+      "Eyewear": "Round Glasses"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pesky Penguin #1015",
+    "symbol": "PET",
+    "collection": "pesky_penguins",
+    "mint": "DAv54m7VSrxAMm9LEFR9GNX3HiPZL5kmL7eQVmbToWrs",
+    "image": "pesky_penguins/20.png",
+    "traits": {
+      "Background": "Cool Blue",
+      "Type": "Green",
+      "Head": "Fauxhawk",
+      "Accessories": "None",
+      "Eyes": "Normal",
+      "Body": "Bathrobe",
+      "Beak": "None",
+      "Hyper-Dimensional?": "false",
+      "Art Style": "Pixel"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pesky Penguin #1644",
+    "symbol": "PET",
+    "collection": "pesky_penguins",
+    "mint": "8NYyUjywh7oWDCPoWRjWTjc55Jba5Ex3GCzGK3Y8x33p",
+    "image": "pesky_penguins/16.png",
+    "traits": {
+      "Background": "Greyteal",
+      "Type": "Green",
+      "Head": "Police Cap",
+      "Accessories": "None",
+      "Eyes": "Normal",
+      "Body": "Hi-Vis Vest",
+      "Beak": "Joint",
+      "Hyper-Dimensional?": "false",
+      "Art Style": "Pixel"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pesky Penguins #2846",
+    "symbol": "PET",
+    "collection": "pesky_penguins",
+    "mint": "4bPvWJYfmgyWFmhABKM8vA9kohcGKpzDPNEVg1U47SnC",
+    "image": "pesky_penguins/6.png",
+    "traits": {
+      "Background": "Violet",
+      "Type": "Black",
+      "Head": "None",
+      "Accessories": "None",
+      "Eyes": "Normal",
+      "Body": "Inner Tube",
+      "Beak": "None",
+      "Hyper-Dimensional?": "true",
+      "Art Style": "Pixel"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pesky Penguin #7691",
+    "symbol": "PET",
+    "collection": "pesky_penguins",
+    "mint": "4dFXfoT4QX4UxL28FWiNrgNd5sgja5U1Hwv9Jkq7dv54",
+    "image": "pesky_penguins/7.png",
+    "traits": {
+      "Background": "Cool Blue",
+      "Type": "Green",
+      "Head": "Cowboy Hat",
+      "Accessories": "None",
+      "Eyes": "Normal",
+      "Body": "None",
+      "Beak": "Mask",
+      "Hyper-Dimensional?": "false",
+      "Art Style": "Pixel"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pesky Penguin #4125",
+    "symbol": "PET",
+    "collection": "pesky_penguins",
+    "mint": "9gMmD1ZJcjtQVawMm8TX3HRY6wXrCCYdihunLFwXFdXj",
+    "image": "pesky_penguins/17.png",
+    "traits": {
+      "Background": "Solana",
+      "Type": "Black",
+      "Head": "None",
+      "Accessories": "None",
+      "Eyes": "Wink",
+      "Body": "None",
+      "Beak": "Cigarette",
+      "Hyper-Dimensional?": "false",
+      "Art Style": "Pixel"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pesky Penguin #4934",
+    "symbol": "PET",
+    "collection": "pesky_penguins",
+    "mint": "DhKbPQ6gbwLLUMrQkWqcgMF7rLJf2UWdCwQRqSVzVVpw",
+    "image": "pesky_penguins/21.png",
+    "traits": {
+      "Background": "Greyteal",
+      "Type": "Green",
+      "Head": "Cap",
+      "Accessories": "None",
+      "Eyes": "Normal",
+      "Body": "Kimono",
+      "Beak": "None",
+      "Hyper-Dimensional?": "false",
+      "Art Style": "Pixel"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pesky Penguin #5979",
+    "symbol": "PET",
+    "collection": "pesky_penguins",
+    "mint": "ByDF5c2RD4Y43qwQXGL1X8JRAzP9Zy57FaxX7joiLDfW",
+    "image": "pesky_penguins/10.png",
+    "traits": {
+      "Background": "Greyteal",
+      "Type": "Green",
+      "Head": "Red Mohawk",
+      "Accessories": "None",
+      "Eyes": "Normal",
+      "Body": "None",
+      "Beak": "None",
+      "Hyper-Dimensional?": "false",
+      "Art Style": "Pixel"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pesky Penguin #8518",
+    "symbol": "PET",
+    "collection": "pesky_penguins",
+    "mint": "899pKJEGxCmYHW75jt8JUakkGacvvJEi7LkcxUZkdncH",
+    "image": "pesky_penguins/0.png",
+    "traits": {
+      "Background": "Coffeefruit",
+      "Type": "Green",
+      "Head": "Black Mohawk",
+      "Accessories": "None",
+      "Eyes": "Normal",
+      "Body": "None",
+      "Beak": "None",
+      "Hyper-Dimensional?": "false",
+      "Art Style": "Pixel"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pesky Penguin #5607",
+    "symbol": "PET",
+    "collection": "pesky_penguins",
+    "mint": "HFdMq72CTgfwvuLmiV1fQhtWrwfjUSCf2pFNg4Z86r87",
+    "image": "pesky_penguins/26.png",
+    "traits": {
+      "Background": "Cool Blue",
+      "Type": "Orange",
+      "Head": "Cap",
+      "Accessories": "None",
+      "Eyes": "Aviators",
+      "Body": "Inner Tube",
+      "Beak": "None",
+      "Hyper-Dimensional?": "false",
+      "Art Style": "Pixel"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pesky Penguin #3897",
+    "symbol": "PET",
+    "collection": "pesky_penguins",
+    "mint": "9jJgDPenUChnEL5dN9869KzKSRs3dZPF9pHvDsgK2oSv",
+    "image": "pesky_penguins/1.png",
+    "traits": {
+      "Background": "Cool Blue",
+      "Type": "Purple",
+      "Head": "Police Cap",
+      "Accessories": "None",
+      "Eyes": "Surprised",
+      "Body": "Tuxedo",
+      "Beak": "Blunt",
+      "Hyper-Dimensional?": "false",
+      "Art Style": "Pixel"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pesky Penguin #4847",
+    "symbol": "PET",
+    "collection": "pesky_penguins",
+    "mint": "6eLoFY6ZH4iCMyw4taG51dGrCsb8AhT5CMVdfAnBqUrT",
+    "image": "pesky_penguins/11.png",
+    "traits": {
+      "Background": "Coffeefruit",
+      "Type": "Black",
+      "Head": "Cap",
+      "Accessories": "None",
+      "Eyes": "Happy",
+      "Body": "Hi-Vis Vest",
+      "Beak": "None",
+      "Hyper-Dimensional?": "false",
+      "Art Style": "Pixel"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pesky Penguin #4189",
+    "symbol": "PET",
+    "collection": "pesky_penguins",
+    "mint": "AchP9xziUvSeZFxgqFJyfTGEVm8prNKjWftYH14cGYH",
+    "image": "pesky_penguins/2.png",
+    "traits": {
+      "Background": "Greyteal",
+      "Type": "Black",
+      "Head": "Police Cap",
+      "Accessories": "None",
+      "Eyes": "Normal",
+      "Body": "Kimono",
+      "Beak": "None",
+      "Hyper-Dimensional?": "false",
+      "Art Style": "Pixel"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pesky Penguin #5310",
+    "symbol": "PET",
+    "collection": "pesky_penguins",
+    "mint": "6UmNh1izVkUagCsPrk7AUCoMHWuQCKyq8tJsUdiGKKhJ",
+    "image": "pesky_penguins/12.png",
+    "traits": {
+      "Background": "Violet",
+      "Type": "Orange",
+      "Head": "None",
+      "Accessories": "None",
+      "Eyes": "Normal",
+      "Body": "Hi-Vis Vest",
+      "Beak": "Warforged",
+      "Hyper-Dimensional?": "false",
+      "Art Style": "Pixel"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pesky Penguin #8196",
+    "symbol": "PET",
+    "collection": "pesky_penguins",
+    "mint": "GjGErYg38VB6gLYqXLxoKnooBudBUj6BJ3GjsC2cJSDR",
+    "image": "pesky_penguins/24.png",
+    "traits": {
+      "Background": "Greyteal",
+      "Type": "Orange",
+      "Head": "Police Cap",
+      "Accessories": "None",
+      "Eyes": "Eye Patch",
+      "Body": "None",
+      "Beak": "None",
+      "Hyper-Dimensional?": "false",
+      "Art Style": "Pixel"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pesky Penguin #1853",
+    "symbol": "PET",
+    "collection": "pesky_penguins",
+    "mint": "GZ78JQminvhurCAZAtqoD5zpAD4RwGb3mZeFwDCPvE6L",
+    "image": "pesky_penguins/25.png",
+    "traits": {
+      "Background": "Greyteal",
+      "Type": "Green",
+      "Head": "Backwards Cap",
+      "Accessories": "None",
+      "Eyes": "Eye Patch",
+      "Body": "None",
+      "Beak": "None",
+      "Hyper-Dimensional?": "false",
+      "Art Style": "Pixel"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pesky Penguin #4711",
+    "symbol": "PET",
+    "collection": "pesky_penguins",
+    "mint": "7hMG6rvWwTA1dXV74ngv6EwGaw836ZuwJnrFUcprmxQW",
+    "image": "pesky_penguins/13.png",
+    "traits": {
+      "Background": "Greyteal",
+      "Type": "Black",
+      "Head": "Feather Headband",
+      "Accessories": "None",
+      "Eyes": "Normal",
+      "Body": "Tuxedo",
+      "Beak": "None",
+      "Hyper-Dimensional?": "false",
+      "Art Style": "Pixel"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pesky Penguin #3027",
+    "symbol": "PET",
+    "collection": "pesky_penguins",
+    "mint": "2hNiHdKYX5RTDUGJ1DrgLmzu9qqJ6MeM4T4NwkNNQUn6",
+    "image": "pesky_penguins/3.png",
+    "traits": {
+      "Background": "Violet",
+      "Type": "Purple",
+      "Head": "None",
+      "Accessories": "None",
+      "Eyes": "Normal",
+      "Body": "None",
+      "Beak": "Vape",
+      "Hyper-Dimensional?": "false",
+      "Art Style": "Pixel"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pesky Penguins #6611",
+    "symbol": "PET",
+    "collection": "pesky_penguins",
+    "mint": "56mCZNKVVjs3dAekjzd9XdfMbUvfXNvHr4CReLYYaBhh",
+    "image": "pesky_penguins/8.png",
+    "traits": {
+      "Background": "Coffeefruit",
+      "Type": "Orange",
+      "Head": "Fauxhawk",
+      "Accessories": "None",
+      "Eyes": "Sleepy",
+      "Body": "None",
+      "Beak": "None",
+      "Hyper-Dimensional?": "true",
+      "Art Style": "Pixel"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pesky Penguin #867",
+    "symbol": "PET",
+    "collection": "pesky_penguins",
+    "mint": "EXB5wJrj9Nd9eHrrridCxVCQ7jC7TGFr1KsiQsQd2UWQ",
+    "image": "pesky_penguins/22.png",
+    "traits": {
+      "Background": "Greyteal",
+      "Type": "Orange",
+      "Head": "Crazy Hair",
+      "Accessories": "None",
+      "Eyes": "Normal",
+      "Body": "None",
+      "Beak": "Cigarette",
+      "Hyper-Dimensional?": "false",
+      "Art Style": "Pixel"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pesky Penguin #3912",
+    "symbol": "PET",
+    "collection": "pesky_penguins",
+    "mint": "BCxqq48CKNzZbRbcMdGMzgZA9AgkGgf2txZrNcQ4Eoyx",
+    "image": "pesky_penguins/18.png",
+    "traits": {
+      "Background": "Coffeefruit",
+      "Type": "Black",
+      "Head": "Cowboy Hat",
+      "Accessories": "None",
+      "Eyes": "Sleepy",
+      "Body": "Kimono",
+      "Beak": "None",
+      "Hyper-Dimensional?": "false",
+      "Art Style": "Pixel"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pesky Penguin #1392",
+    "symbol": "PET",
+    "collection": "pesky_penguins",
+    "mint": "35JiJCuGQxiof6eujwU8yWZwZA98Z9h7fgHhMSp38foQ",
+    "image": "pesky_penguins/4.png",
+    "traits": {
+      "Background": "Violet",
+      "Type": "Green",
+      "Head": "None",
+      "Accessories": "Earring",
+      "Eyes": "Regular Shades",
+      "Body": "Inner Tube",
+      "Beak": "None",
+      "Hyper-Dimensional?": "false",
+      "Art Style": "Pixel"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pesky Penguin #4196",
+    "symbol": "PET",
+    "collection": "pesky_penguins",
+    "mint": "7QQzrvpLpivPzZ61Mh324EsdB3z3arhS6y8dJRrCxWGV",
+    "image": "pesky_penguins/14.png",
+    "traits": {
+      "Background": "Coffeefruit",
+      "Type": "Orange",
+      "Head": "Vampire Hair",
+      "Accessories": "None",
+      "Eyes": "Normal",
+      "Body": "Black Suit",
+      "Beak": "Mask",
+      "Hyper-Dimensional?": "false",
+      "Art Style": "Pixel"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pesky Penguin #8695",
+    "symbol": "PET",
+    "collection": "pesky_penguins",
+    "mint": "7xY3uqLDKqdq6EimpdEuLgAe4vsEpJUy8hDEntMLN81R",
+    "image": "pesky_penguins/15.png",
+    "traits": {
+      "Background": "Cool Blue",
+      "Type": "Black",
+      "Head": "Police Cap",
+      "Accessories": "None",
+      "Eyes": "Normal",
+      "Body": "None",
+      "Beak": "None",
+      "Hyper-Dimensional?": "false",
+      "Art Style": "Pixel"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pesky Penguin #2015",
+    "symbol": "PET",
+    "collection": "pesky_penguins",
+    "mint": "3RTjeHZnEnxJVDKz2EFH11CbE6En5QGPFVeDwaHZ5LKo",
+    "image": "pesky_penguins/5.png",
+    "traits": {
+      "Background": "Greyteal",
+      "Type": "Green",
+      "Head": "Backwards Cap",
+      "Accessories": "None",
+      "Eyes": "Normal",
+      "Body": "Hi-Vis Vest",
+      "Beak": "Cigarette",
+      "Hyper-Dimensional?": "false",
+      "Art Style": "Pixel"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pesky Penguin #7452",
+    "symbol": "PET",
+    "collection": "pesky_penguins",
+    "mint": "CPAZJL7bXawdweME3Z9wH8LYQk3xbcnZUoYRmGdCZpbK",
+    "image": "pesky_penguins/19.png",
+    "traits": {
+      "Background": "Coffeefruit",
+      "Type": "Blue",
+      "Head": "Police Cap",
+      "Accessories": "None",
+      "Eyes": "Eye Patch",
+      "Body": "None",
+      "Beak": "None",
+      "Hyper-Dimensional?": "false",
+      "Art Style": "Pixel"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pesky Penguin #3578",
+    "symbol": "PET",
+    "collection": "pesky_penguins",
+    "mint": "FHtzqjyvnR5tP1MUG4LTYzdnh6jNUMz9ZEQEveqh6VGb",
+    "image": "pesky_penguins/23.png",
+    "traits": {
+      "Background": "Greyteal",
+      "Type": "Blue",
+      "Head": "Police Cap",
+      "Accessories": "None",
+      "Eyes": "Normal",
+      "Body": "None",
+      "Beak": "Vape",
+      "Hyper-Dimensional?": "false",
+      "Art Style": "Pixel"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pesky Penguin #1673",
+    "symbol": "PET",
+    "collection": "pesky_penguins",
+    "mint": "5mb19hALinP373AcvcoASMg8KrA8kAGvXB8hb3xVzRvp",
+    "image": "pesky_penguins/9.png",
+    "traits": {
+      "Background": "Cool Blue",
+      "Type": "Purple",
+      "Head": "None",
+      "Accessories": "None",
+      "Eyes": "Normal",
+      "Body": "Inner Tube",
+      "Beak": "None",
+      "Hyper-Dimensional?": "false",
+      "Art Style": "Pixel"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Fox #4253",
+    "symbol": "PET",
+    "collection": "famous_fox_federation",
+    "mint": "6FU46a7AR5UudHztj5LkYpgq9fcfoFHGRZCJ6ycd5R3g",
+    "image": "famous_fox_federation/6.png",
+    "traits": {
+      "Background": "Persimmon",
+      "Outfit": "Sweater Green",
+      "Skin": "Natural",
+      "Mouth": "Smirk",
+      "Head": "Bucket Hat Ivory",
+      "Eyes": "Synth"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Fox #9833",
+    "symbol": "PET",
+    "collection": "famous_fox_federation",
+    "mint": "CAd1nXAdSiGoA44DaoTTzdkfA3LaJjQKajXGgU8oBRoF",
+    "image": "famous_fox_federation/7.png",
+    "traits": {
+      "Background": "Rose",
+      "Outfit": "Turtleneck Leaf",
+      "Skin": "Natural",
+      "Eyes": "Starstruck",
+      "Mouth": "UwU",
+      "Head": "Cap Star",
+      "Summoned": "True"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Fox #8563",
+    "symbol": "PET",
+    "collection": "famous_fox_federation",
+    "mint": "3CQVcSsVD7wyMSVbgtkgJ3ohxLPppSCMkPCrFDf2US31",
+    "image": "famous_fox_federation/0.png",
+    "traits": {
+      "Background": "Yellow",
+      "Outfit": "Jacket Blue",
+      "Skin": "Natural",
+      "Eyes": "Monocle",
+      "Mouth": "Snarl",
+      "Head": "Cap Purple",
+      "Summoned": "True"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Fox #5977",
+    "symbol": "PET",
+    "collection": "famous_fox_federation",
+    "mint": "CR8CSPYmXDN5oQTUShvTdDsm78ZfmZTkewTkMRbChZ66",
+    "image": "famous_fox_federation/1.png",
+    "traits": {
+      "Background": "Persimmon",
+      "Outfit": "Shirt Red",
+      "Skin": "Natural",
+      "Mouth": "Blep",
+      "Head": "Backwards Cap Pink",
+      "Eyes": "Wink"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Fox #5938",
+    "symbol": "PET",
+    "collection": "famous_fox_federation",
+    "mint": "HPG5YdU5vNdPRDfMDjSAvTZHk9ABrqnqGQD1SWtpTgcK",
+    "image": "famous_fox_federation/2.png",
+    "traits": {
+      "Background": "Mint",
+      "Outfit": "Hoodie Blue",
+      "Skin": "Natural",
+      "Mouth": "Grin",
+      "Head": "Bucket Hat Ivory",
+      "Eyes": "Wink"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Fox #9137",
+    "symbol": "PET",
+    "collection": "famous_fox_federation",
+    "mint": "3unrCrpy6zrQ7Wj4fdjeUAZiRh8RTNo4cU48RCHX4Vq1",
+    "image": "famous_fox_federation/3.png",
+    "traits": {
+      "Background": "Orange",
+      "Outfit": "Jacket Green",
+      "Skin": "Natural",
+      "Eyes": "Happy",
+      "Mouth": "Fangs",
+      "Head": "Cap Fire",
+      "Summoned": "True"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Fox #4444",
+    "symbol": "PET",
+    "collection": "famous_fox_federation",
+    "mint": "JB8SfNesa6DzfgjrvuWFM1oh4YdanprYHRZ8bVjeApjx",
+    "image": "famous_fox_federation/8.png",
+    "traits": {
+      "Background": "Pink",
+      "Outfit": "Sweater Purple",
+      "Skin": "Natural",
+      "Mouth": "Drool",
+      "Head": "Backwards Cap Camo",
+      "Eyes": "Scar"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Fox #3731",
+    "symbol": "PET",
+    "collection": "famous_fox_federation",
+    "mint": "4xFLFs47kfPxRmD6AuuYKp8R8TjAZzesjyHXJiuCWc7w",
+    "image": "famous_fox_federation/4.png",
+    "traits": {
+      "Background": "Violet",
+      "Outfit": "Turtleneck Green",
+      "Skin": "Natural",
+      "Mouth": "Closed",
+      "Head": "Cap Pink",
+      "Eyes": "Jaded"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Fox #9808",
+    "symbol": "PET",
+    "collection": "famous_fox_federation",
+    "mint": "WmkZ6QUf1tFbZYoDwh1jQyKfZS3cXhxd4oL3Wxf8byV",
+    "image": "famous_fox_federation/5.png",
+    "traits": {
+      "Background": "Purple",
+      "Outfit": "Jacket Denim",
+      "Skin": "Natural",
+      "Eyes": "Emerald",
+      "Mouth": "Smug",
+      "Head": "Cap Solana",
+      "Summoned": "True"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Fox #8163",
+    "symbol": "PET",
+    "collection": "famous_fox_federation",
+    "mint": "6ybqNWW7HJKk4R4TWPNLz291rB49gXPVwDt7uHEuG1N8",
+    "image": "famous_fox_federation/9.png",
+    "traits": {
+      "Background": "Alabaster",
+      "Outfit": "T-Shirt Foxy",
+      "Skin": "Natural",
+      "Eyes": "Monocle",
+      "Mouth": "Smug",
+      "Head": "Beanie Orange",
+      "Summoned": "True",
+      "Head Tier": 1,
+      "Outfit Tier": 1
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Fox #1147",
+    "symbol": "PET",
+    "collection": "transdimensional_fox_federation",
+    "mint": "9rDknnY6fCuiD4KbJGRjPP3tNmGm2f6fJSAPVcLjzaY6",
+    "image": "transdimensional_fox_federation/6.png",
+    "traits": {
+      "Background": "Champagne",
+      "Outfit": "COPE",
+      "Skin": "Natural",
+      "Mouth": "Smirk",
+      "Head": "Bowler Light",
+      "Eyes": "Standard"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Fox #2897",
+    "symbol": "PET",
+    "collection": "transdimensional_fox_federation",
+    "mint": "6nr4tGxM7bM42gjP4a97h6puYyFMS2aL3hZmJ2BNhy3d",
+    "image": "transdimensional_fox_federation/7.png",
+    "traits": {
+      "Background": "Straw",
+      "Outfit": "Turtleneck Orange",
+      "Skin": "Natural",
+      "Mouth": "Smug",
+      "Head": "Cap Indigo",
+      "Eyes": "Jaded"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Fox #2643",
+    "symbol": "PET",
+    "collection": "transdimensional_fox_federation",
+    "mint": "CDbPAWsrRCBznouBS1qVV4qyhMkWLdC4Zf1YVt6qU2uX",
+    "image": "transdimensional_fox_federation/0.png",
+    "traits": {
+      "Background": "Blue",
+      "Outfit": "Sweater Red",
+      "Skin": "Natural",
+      "Mouth": "Closed",
+      "Head": "None",
+      "Eyes": "Scar"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Fox #7139",
+    "symbol": "PET",
+    "collection": "transdimensional_fox_federation",
+    "mint": "Cm8HFMAyFLg9g4aH6sABz5veH191uXnVMG43zz3a9nT1",
+    "image": "transdimensional_fox_federation/1.png",
+    "traits": {
+      "Background": "Rose",
+      "Outfit": "Tank Top Purple",
+      "Skin": "Natural",
+      "Mouth": "Closed",
+      "Head": "Bucket Hat Ivory",
+      "Eyes": "Angry"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Fox #2229",
+    "symbol": "PET",
+    "collection": "transdimensional_fox_federation",
+    "mint": "7TbbkrMDt1Uk49rNiJA8HFHueaCCZeFpr7vtaYB14fym",
+    "image": "transdimensional_fox_federation/2.png",
+    "traits": {
+      "Background": "Rose",
+      "Outfit": "Shirt Green",
+      "Skin": "Natural",
+      "Mouth": "Blep",
+      "Head": "Cap Indigo",
+      "Eyes": "Jaded"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Fox #5781",
+    "symbol": "PET",
+    "collection": "transdimensional_fox_federation",
+    "mint": "4jdmyteCij35ZqjfP5JxfPX1SM8vLyCeYzj7iiiCam6M",
+    "image": "transdimensional_fox_federation/3.png",
+    "traits": {
+      "Background": "Sand",
+      "Outfit": "Shirt Red",
+      "Skin": "Natural",
+      "Mouth": "Closed",
+      "Head": "Headband Dark",
+      "Eyes": "Wink"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Fox #3112",
+    "symbol": "PET",
+    "collection": "transdimensional_fox_federation",
+    "mint": "HgessF6AGWiBYfr2cy3sx55DmqBwwLbCAG25sSMSgRnj",
+    "image": "transdimensional_fox_federation/8.png",
+    "traits": {
+      "Background": "Rose",
+      "Outfit": "Turtleneck Orange",
+      "Skin": "Natural",
+      "Mouth": "Closed",
+      "Head": "None",
+      "Eyes": "Mutated"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Fox #6011",
+    "symbol": "PET",
+    "collection": "transdimensional_fox_federation",
+    "mint": "5oE7BJKRA6hg4T8L9wbqJDPgckB5CvH3bnB8LTYDLxjF",
+    "image": "transdimensional_fox_federation/4.png",
+    "traits": {
+      "Background": "Champagne",
+      "Outfit": "Hoodie Green",
+      "Skin": "Natural",
+      "Mouth": "Grin",
+      "Head": "Headband White",
+      "Eyes": "Raised"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Fox #6218",
+    "symbol": "PET",
+    "collection": "transdimensional_fox_federation",
+    "mint": "6r1oMimFf2JT98XPsaB5ws9nKXbXaJ1hSehD3c5zdyz4",
+    "image": "transdimensional_fox_federation/5.png",
+    "traits": {
+      "Background": "Amaranth",
+      "Outfit": "Hoodie Green",
+      "Skin": "Natural",
+      "Mouth": "Drool",
+      "Head": "Headband Dark",
+      "Eyes": "Wink"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Fox #152",
+    "symbol": "PET",
+    "collection": "transdimensional_fox_federation",
+    "mint": "2izNRSjS7uYzP2YQweFSPK5BhKGPxc69N9JcNQvpcgQj",
+    "image": "transdimensional_fox_federation/9.png",
+    "traits": {
+      "Background": "Mint",
+      "Outfit": "Hoodie Blue",
+      "Skin": "Natural",
+      "Mouth": "Smug",
+      "Head": "Bowler Light",
+      "Eyes": "Angry"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pet Legends OG Malachite #98",
+    "symbol": "PET",
+    "collection": "petlgd",
+    "mint": "H2D5TTcDzgyS8zK7dQbhWdqYgfJdB27s7GP8cVhsxH8f",
+    "image": "petlgd/6.png",
+    "traits": {
+      "Type": "Character",
+      "Feature": "Glasses Blue-Green",
+      "Primary Colour": "Black",
+      "Secondary Colour": "Gold",
+      "Transform": "N/A",
+      "Landlord": "Yes",
+      "Purity": 100,
+      "Rarity": "OG",
+      "Dark": 80,
+      "Rock": 80,
+      "Energy": 80,
+      "Light": 80,
+      "Fire": 80,
+      "Ice": 80,
+      "Sky": 80,
+      "Metal": 80
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pet Legends OG Byzantium #42",
+    "symbol": "PET",
+    "collection": "petlgd",
+    "mint": "5udPZixbYxr6vNbDMxGksgK3kj6kMotKGg7oRq3zgVCg",
+    "image": "petlgd/7.png",
+    "traits": {
+      "Type": "Character",
+      "Feature": "Glasses Purple",
+      "Primary Colour": "Black",
+      "Secondary Colour": "Gold",
+      "Transform": "N/A",
+      "Landlord": "Yes",
+      "Purity": 100,
+      "Rarity": "OG",
+      "Dark": 80,
+      "Rock": 80,
+      "Energy": 80,
+      "Light": 80,
+      "Fire": 80,
+      "Ice": 80,
+      "Sky": 80,
+      "Metal": 80
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pet Legends OG Orchid #74",
+    "symbol": "PET",
+    "collection": "petlgd",
+    "mint": "HER2H7GH335eW4T1qbebWHZUWqp6mrQjMZEsPjLM7S85",
+    "image": "petlgd/0.png",
+    "traits": {
+      "Type": "Character",
+      "Feature": "Glasses Purple",
+      "Primary Colour": "Black",
+      "Secondary Colour": "Gold",
+      "Transform": "N/A",
+      "Landlord": "Yes",
+      "Purity": 100,
+      "Rarity": "OG",
+      "Dark": 80,
+      "Rock": 80,
+      "Energy": 80,
+      "Light": 80,
+      "Fire": 80,
+      "Ice": 80,
+      "Sky": 80,
+      "Metal": 80
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pet Legends OG Byzantium #86",
+    "symbol": "PET",
+    "collection": "petlgd",
+    "mint": "5ATzoyWGuecu2BQsPsHwHqPy3UjKBW2Pt5jAemQorw1g",
+    "image": "petlgd/1.png",
+    "traits": {
+      "Type": "Character",
+      "Feature": "Glasses Purple",
+      "Primary Colour": "Black",
+      "Secondary Colour": "Gold",
+      "Transform": "N/A",
+      "Landlord": "Yes",
+      "Purity": 100,
+      "Rarity": "OG",
+      "Dark": 80,
+      "Rock": 80,
+      "Energy": 80,
+      "Light": 80,
+      "Fire": 80,
+      "Ice": 80,
+      "Sky": 80,
+      "Metal": 80
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pet Legends OG Orchid #79",
+    "symbol": "PET",
+    "collection": "petlgd",
+    "mint": "51JBqyYB9mJg4heCUiNpe48uedkaVqsDBPLTyqdRWgjB",
+    "image": "petlgd/2.png",
+    "traits": {
+      "Type": "Character",
+      "Feature": "Glasses Purple",
+      "Primary Colour": "Black",
+      "Secondary Colour": "Gold",
+      "Transform": "N/A",
+      "Landlord": "Yes",
+      "Purity": 100,
+      "Rarity": "OG",
+      "Dark": 80,
+      "Rock": 80,
+      "Energy": 80,
+      "Light": 80,
+      "Fire": 80,
+      "Ice": 80,
+      "Sky": 80,
+      "Metal": 80
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pet Legends OG Orchid #8",
+    "symbol": "PET",
+    "collection": "petlgd",
+    "mint": "5N7Efbm7tT31xibbAerjb2vCZRd7edSVD3M1PhZFxDKG",
+    "image": "petlgd/3.png",
+    "traits": {
+      "Type": "Character",
+      "Feature": "Glasses Purple",
+      "Primary Colour": "Black",
+      "Secondary Colour": "Gold",
+      "Transform": "N/A",
+      "Landlord": "Yes",
+      "Purity": 100,
+      "Rarity": "OG",
+      "Dark": 80,
+      "Rock": 80,
+      "Energy": 80,
+      "Light": 80,
+      "Fire": 80,
+      "Ice": 80,
+      "Sky": 80,
+      "Metal": 80
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pet Legends OG Byzantium #43",
+    "symbol": "PET",
+    "collection": "petlgd",
+    "mint": "22mJ4aNUqu4Z8BQmsgEJdXaecog7emhG2zHBuDeoYbCB",
+    "image": "petlgd/8.png",
+    "traits": {
+      "Type": "Character",
+      "Feature": "Glasses Purple",
+      "Primary Colour": "Black",
+      "Secondary Colour": "Gold",
+      "Transform": "N/A",
+      "Landlord": "Yes",
+      "Purity": 100,
+      "Rarity": "OG",
+      "Dark": 80,
+      "Rock": 80,
+      "Energy": 80,
+      "Light": 80,
+      "Fire": 80,
+      "Ice": 80,
+      "Sky": 80,
+      "Metal": 80
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pet Legends OG Harlequin #14",
+    "symbol": "PET",
+    "collection": "petlgd",
+    "mint": "G7uuvFp7b64bCMGFtCQsAnW2iDzHspzPM6tD1J9d4RMh",
+    "image": "petlgd/4.png",
+    "traits": {
+      "Type": "Character",
+      "Feature": "Glasses Blue-Green",
+      "Primary Colour": "Black",
+      "Secondary Colour": "Gold",
+      "Transform": "N/A",
+      "Landlord": "Yes",
+      "Purity": 100,
+      "Rarity": "OG",
+      "Dark": 80,
+      "Rock": 80,
+      "Energy": 80,
+      "Light": 80,
+      "Fire": 80,
+      "Ice": 80,
+      "Sky": 80,
+      "Metal": 80
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pet Legends OG Orchid #38",
+    "symbol": "PET",
+    "collection": "petlgd",
+    "mint": "F6vELSrKegr5AEuC3aaYn7gNiFf5vakzvWhnSEZVBBSk",
+    "image": "petlgd/5.png",
+    "traits": {
+      "Type": "Character",
+      "Feature": "Glasses Purple",
+      "Primary Colour": "Black",
+      "Secondary Colour": "Gold",
+      "Transform": "N/A",
+      "Landlord": "Yes",
+      "Purity": 100,
+      "Rarity": "OG",
+      "Dark": 80,
+      "Rock": 80,
+      "Energy": 80,
+      "Light": 80,
+      "Fire": 80,
+      "Ice": 80,
+      "Sky": 80,
+      "Metal": 80
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Pet Legends OG Orchid #80",
+    "symbol": "PET",
+    "collection": "petlgd",
+    "mint": "9CMro2XNc1n8Y5cMJAamR8NTqjq2eLhm1pApQb72KRsP",
+    "image": "petlgd/9.png",
+    "traits": {
+      "Type": "Character",
+      "Feature": "Glasses Purple",
+      "Primary Colour": "Black",
+      "Secondary Colour": "Gold",
+      "Transform": "N/A",
+      "Landlord": "Yes",
+      "Purity": 100,
+      "Rarity": "OG",
+      "Dark": 80,
+      "Rock": 80,
+      "Energy": 80,
+      "Light": 80,
+      "Fire": 80,
+      "Ice": 80,
+      "Sky": 80,
+      "Metal": 80
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Mad Lads #7363",
+    "symbol": "PET",
+    "collection": "mad_lads",
+    "mint": "8EVuS4U5zNncCc8GAFH2iaa68CxHKgqR9Cdti6cdEhi9",
+    "image": "mad_lads/6.png",
+    "traits": {
+      "Gender": "Male",
+      "Type": "Dark",
+      "Expression": "Shocked",
+      "Hat": "Beret",
+      "Eyes": "Brown",
+      "Smoking": "Cigarette",
+      "Smoke": "White",
+      "Clothing": "Daredevil",
+      "Background": "White"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Mad Lads #2414",
+    "symbol": "PET",
+    "collection": "mad_lads",
+    "mint": "DANY1VRhu9sSbntRSyzM5WvfaCshr6W7CJZLFcZV9fUJ",
+    "image": "mad_lads/7.png",
+    "traits": {
+      "Gender": "Male",
+      "Type": "Dark",
+      "Expression": "Mad",
+      "Hair": "French Crop",
+      "Eyes": "Green",
+      "Clothing": "Tuxedo",
+      "Background": "Green"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Mad Lads #3950",
+    "symbol": "PET",
+    "collection": "mad_lads",
+    "mint": "4ZLoYnEGHTmfassz799x3D8pcGooP9qGvAA4WQzoSxop",
+    "image": "mad_lads/0.png",
+    "traits": {
+      "Gender": "Male",
+      "Type": "Dark",
+      "Expression": "Smile",
+      "Hair": "Grey Messy",
+      "Eyes": "Green",
+      "Clothing": "General Uniform",
+      "Background": "Yellow"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Mad Lads #9032",
+    "symbol": "PET",
+    "collection": "mad_lads",
+    "mint": "52qhYYHPCzuV1jiQzrwSFHKm5rex5tqoKdhEmey8BpLs",
+    "image": "mad_lads/1.png",
+    "traits": {
+      "Gender": "Male",
+      "Type": "Dark",
+      "Expression": "Serious",
+      "Hair": "Brown Messy",
+      "Eyes": "Brown",
+      "Clothing": "Lads Jersey",
+      "Background": "Pink"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Mad Lads #2629",
+    "symbol": "PET",
+    "collection": "mad_lads",
+    "mint": "2FsgW1zkcFQ6HFNLp67apuZwbaxvu3PREbtJFtCrXWik",
+    "image": "mad_lads/2.png",
+    "traits": {
+      "Gender": "Male",
+      "Type": "Dark",
+      "Expression": "Mad",
+      "Eyes": "Green",
+      "Clothing": "Warlock Robe",
+      "Background": "Grey"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Mad Lads #5387",
+    "symbol": "PET",
+    "collection": "mad_lads",
+    "mint": "FwTLSpktzXdgQmKiiLvKJ86XLza5jV71SMR8XuApt89G",
+    "image": "mad_lads/3.png",
+    "traits": {
+      "Gender": "Male",
+      "Type": "Light",
+      "Expression": "Shocked",
+      "Hair": "Buzzcut",
+      "Eyes": "Blue",
+      "Smoking": "Cigarette",
+      "Smoke": "White",
+      "Clothing": "Fur-Trimmed Jacket",
+      "Background": "Purple"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Mad Lads #4582",
+    "symbol": "PET",
+    "collection": "mad_lads",
+    "mint": "GGvYBEo8hYT97S7i7jxAgFBaZdbPJFhSHVFfm5P25oog",
+    "image": "mad_lads/8.png",
+    "traits": {
+      "Gender": "Male",
+      "Type": "Dark",
+      "Expression": "Joy",
+      "Hair": "Grey Messy",
+      "Eyes": "Closed",
+      "Clothing": "Three Piece",
+      "Background": "Pink"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Mad Lads #4658",
+    "symbol": "PET",
+    "collection": "mad_lads",
+    "mint": "39Q6UyyEjE2fa6u6kWqyCv2uu8FmGSKRiSqwybRrxCay",
+    "image": "mad_lads/4.png",
+    "traits": {
+      "Gender": "Male",
+      "Type": "Light",
+      "Expression": "Serious",
+      "Hat": "Gambler",
+      "Eyes": "Green",
+      "Clothing": "Lads Jersey",
+      "Background": "Orange"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Mad Lads #7409",
+    "symbol": "PET",
+    "collection": "mad_lads",
+    "mint": "6jojFqsTvvWPGfHu9ji9Y5xRsdsGAEC5GXxo4NSqEN74",
+    "image": "mad_lads/5.png",
+    "traits": {
+      "Gender": "Male",
+      "Type": "Dark",
+      "Expression": "Smile",
+      "Hat": "Gambler",
+      "Eyes": "Green",
+      "Clothing": "Brown Jacket",
+      "Background": "Red"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Mad Lads #4686",
+    "symbol": "PET",
+    "collection": "mad_lads",
+    "mint": "3vcjNy8xN6ZiCqdGpZL2hBwXH7R7Hc3k94DZY3QygPMW",
+    "image": "mad_lads/9.png",
+    "traits": {
+      "Gender": "Male",
+      "Type": "Light",
+      "Expression": "Mad",
+      "Hat": "Gambler",
+      "Eyes": "Possessed",
+      "Clothing": "Black Coat",
+      "Background": "Violet"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Claynosaurz #2784",
+    "symbol": "PET",
+    "collection": "claynosaurz",
+    "mint": "2Bv2Lds49R59hEVuRuJN4D4kyPiErW8mhVbASkNndLJD",
+    "image": null,
+    "traits": {
+      "Edition": "First",
+      "Species": "Trice",
+      "Skin": "Mirage",
+      "Color": "Volcanic",
+      "Motion": "Idle",
+      "Mood": "Smug",
+      "Background": "Mint",
+      "Layer Count": "3",
+      "Back": "Off",
+      "Belly": "On",
+      "Pattern": "On",
+      "Details": "On"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 15,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Claynosaurz #4736",
+    "symbol": "PET",
+    "collection": "claynosaurz",
+    "mint": "5BJihMuyi29RCG4pvCbJuD2FV9n4jhkkMsooCARRN4Ag",
+    "image": null,
+    "traits": {
+      "Edition": "First",
+      "Species": "Ankylo",
+      "Skin": "Mirage",
+      "Color": "Aqua",
+      "Motion": "Trot",
+      "Mood": "Sleepy",
+      "Background": "Mint",
+      "Layer Count": "2",
+      "Back": "On",
+      "Belly": "Off",
+      "Pattern": "Off",
+      "Details": "On"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Claynosaurz #3898",
+    "symbol": "PET",
+    "collection": "claynosaurz",
+    "mint": "CzoZ2QXJfUaXvQbZT6oNs8JfoNqJNhsQn8DzY2iVwY6d",
+    "image": null,
+    "traits": {
+      "Class": "Warrior",
+      "Edition": "First",
+      "Species": "Trice",
+      "Skin": "Mirage",
+      "Color": "Spring",
+      "Motion": "Walk",
+      "Mood": "Sleepy",
+      "Background": "Salmon",
+      "Layer Count": "1",
+      "Back": "On",
+      "Belly": "Off",
+      "Pattern": "Off",
+      "Details": "Off"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 15,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Claynosaurz #7404",
+    "symbol": "PET",
+    "collection": "claynosaurz",
+    "mint": "98xG4bMQGerYNexDyDh6FhDaBgwmpi32oqA1ZbBZFXhd",
+    "image": null,
+    "traits": {
+      "Edition": "First",
+      "Species": "Trice",
+      "Skin": "Mirage",
+      "Color": "Spring",
+      "Motion": "Walk",
+      "Mood": "Sad",
+      "Background": "Dune",
+      "Layer Count": "1",
+      "Back": "Off",
+      "Belly": "On",
+      "Pattern": "Off",
+      "Details": "Off"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 15,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Claynosaurz #1161",
+    "symbol": "PET",
+    "collection": "claynosaurz",
+    "mint": "7ejRWECGgP67YEeNtJ2PviWjAscy4wPhcFj3qgykvcHd",
+    "image": null,
+    "traits": {
+      "Edition": "First",
+      "Species": "Ankylo",
+      "Skin": "Savanna",
+      "Color": "Desert",
+      "Motion": "Idle",
+      "Mood": "Excited",
+      "Background": "Salmon",
+      "Layer Count": "2",
+      "Back": "On",
+      "Belly": "Off",
+      "Pattern": "Off",
+      "Details": "On"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Claynosaurz #9345",
+    "symbol": "PET",
+    "collection": "claynosaurz",
+    "mint": "85wgFomAV38wYY4jBBQacBxTLBt6SJrvFkNUNQgypTKm",
+    "image": null,
+    "traits": {
+      "Edition": "First",
+      "Species": "Stego",
+      "Skin": "Mirage",
+      "Color": "Aqua",
+      "Motion": "Gallop",
+      "Mood": "Sad",
+      "Background": "Dune",
+      "Layer Count": "2",
+      "Back": "Off",
+      "Belly": "On",
+      "Pattern": "Off",
+      "Details": "On"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Claynosaurz #309",
+    "symbol": "PET",
+    "collection": "claynosaurz",
+    "mint": "FyiS3NEPHbxjymB8KoMw9xMDdr1LZacJLFbAqQoeDqfu",
+    "image": null,
+    "traits": {
+      "Edition": "First",
+      "Species": "Ankylo",
+      "Skin": "Mirage",
+      "Color": "Aqua",
+      "Motion": "Idle",
+      "Mood": "Confident",
+      "Background": "Mint",
+      "Layer Count": "1",
+      "Back": "Off",
+      "Belly": "Off",
+      "Pattern": "Off",
+      "Details": "On"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Claynosaurz #3507",
+    "symbol": "PET",
+    "collection": "claynosaurz",
+    "mint": "DsfuKDXoo98Q6JSsL9ou9E56Nz2d14ZmUVN834W8ty3E",
+    "image": "claynosaurz/4.png",
+    "traits": {
+      "Edition": "First",
+      "Species": "Trice",
+      "Skin": "Savanna",
+      "Color": "Aqua",
+      "Motion": "Trot",
+      "Mood": "Sad",
+      "Background": "Dune",
+      "Layer Count": "1",
+      "Back": "Off",
+      "Belly": "On",
+      "Pattern": "Off",
+      "Details": "Off"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 15,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Claynosaurz #224",
+    "symbol": "PET",
+    "collection": "claynosaurz",
+    "mint": "2iELu3Vi61xoLL9CYbQVm6nNBQJDdDfKKZECVRQ6sQfm",
+    "image": null,
+    "traits": {
+      "Edition": "First",
+      "Species": "Ankylo",
+      "Skin": "Mirage",
+      "Color": "Volcanic",
+      "Motion": "Walk",
+      "Mood": "Sleepy",
+      "Background": "Mint",
+      "Layer Count": "1",
+      "Back": "On",
+      "Belly": "Off",
+      "Pattern": "Off",
+      "Details": "Off"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "Claynosaurz #8552",
+    "symbol": "PET",
+    "collection": "claynosaurz",
+    "mint": "2DJXXnM8pDoJnMH66HfedQFoEPHSJ8qHjggNdPWHrYBV",
+    "image": null,
+    "traits": {
+      "Edition": "First",
+      "Species": "Ankylo",
+      "Skin": "Mirage",
+      "Color": "Volcanic",
+      "Motion": "Idle",
+      "Mood": "Confident",
+      "Background": "Mint",
+      "Layer Count": "2",
+      "Back": "On",
+      "Belly": "Off",
+      "Pattern": "On",
+      "Details": "Off"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "sharx #1774",
+    "symbol": "PET",
+    "collection": "sharx",
+    "mint": "15cmqzhyccT6P3jJw6CzqfD7aLpdYCSe4W6aHrEqceU",
+    "image": "sharx/6.png",
+    "traits": {
+      "level": 3,
+      "attribute count": 2,
+      "background": "gradient - sunflower",
+      "body": "minimalist - taupe",
+      "face": "content",
+      "prop": "music - bongos"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "sharx #2117",
+    "symbol": "PET",
+    "collection": "sharx",
+    "mint": "Cqg2YqSMJbZmSaJ4KKsZujHYYHyutkZj6odQtAF9F5e9",
+    "image": "sharx/7.png",
+    "traits": {
+      "level": 3,
+      "attribute count": 2,
+      "background": "metallic - gold",
+      "body": "minimalist - orange",
+      "face": "bright",
+      "prop": "cane"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "sharx #514",
+    "symbol": "PET",
+    "collection": "sharx",
+    "mint": "3EsL3Lk9JcJhycMJx4xd6gwvueuRq7bpjCN3p8J17Koh",
+    "image": "sharx/0.png",
+    "traits": {
+      "level": 3,
+      "attribute count": 2,
+      "background": "pastel - robin egg",
+      "body": "minimalist - aqua",
+      "face": "fiery",
+      "prop": "throwing star"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "sharx #2486",
+    "symbol": "PET",
+    "collection": "sharx",
+    "mint": "3gVUUquM22izrxqDmK3QNbEpB3btvuw8jCDX8T8uacGo",
+    "image": "sharx/1.png",
+    "traits": {
+      "level": 3,
+      "attribute count": 1,
+      "background": "pastel - mint",
+      "body": "minimalist - cream",
+      "face": "sleepy"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "sharx #2855",
+    "symbol": "PET",
+    "collection": "sharx",
+    "mint": "8cT8dsg39PFtRSBLPXxVJ7kgDDYjaTX89k2F8dtoRdYM",
+    "image": "sharx/2.png",
+    "traits": {
+      "level": 3,
+      "attribute count": 1,
+      "background": "wallpaper - sharky yellow",
+      "body": "ombre - ocean",
+      "face": "toothy"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "sharx #2438",
+    "symbol": "PET",
+    "collection": "sharx",
+    "mint": "Dg5RrqXUanFEjPqs5g3SBzHcKMyoPHGAomdPRdYqjdvw",
+    "image": "sharx/3.png",
+    "traits": {
+      "level": 3,
+      "attribute count": 2,
+      "background": "gradient - aqua",
+      "body": "ombre - united",
+      "face": "mouse",
+      "prop": "tool - wrench"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "sharx #4072",
+    "symbol": "PET",
+    "collection": "sharx",
+    "mint": "Askcao3kfbJfEYfPJp2jmvDh8cafVPypTN9F2n9P8VHr",
+    "image": "sharx/8.png",
+    "traits": {
+      "level": 3,
+      "attribute count": 3,
+      "background": "pastel - robin egg",
+      "body": "minimalist - yellow",
+      "hat": "flower - hibiscus",
+      "face": "sad",
+      "prop": "paint"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "sharx #9125",
+    "symbol": "PET",
+    "collection": "sharx",
+    "mint": "GPVVkzeKzqs79DgQGzSdRjzb8Rsmta5wm4F2iVq4NdcE",
+    "image": "sharx/4.png",
+    "traits": {
+      "level": 3,
+      "attribute count": 2,
+      "background": "gradient - cerulean",
+      "body": "minimalist - green",
+      "face": "silly",
+      "prop": "paint"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "sharx #6389",
+    "symbol": "PET",
+    "collection": "sharx",
+    "mint": "GxqdeR2xR28Kj21HdkRFnyEjP3GYbgXw6E1SfGn74afM",
+    "image": "sharx/5.png",
+    "traits": {
+      "level": 3,
+      "attribute count": 3,
+      "background": "gradient - cerulean",
+      "body": "dragonscale - purple",
+      "hat": "coral",
+      "face": "toothy",
+      "prop": "surfboard"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  },
+  {
+    "name": "sharx #5348",
+    "symbol": "PET",
+    "collection": "sharx",
+    "mint": "HD4X7HBxgQG6oGJpBxhKXn1q3EquDgKny7jT3PXbKrqN",
+    "image": "sharx/9.png",
+    "traits": {
+      "level": 2,
+      "attribute count": 3,
+      "background": "solid - pink",
+      "body": "minimalist - yellow",
+      "wearable": "necklace - shell",
+      "hat": "hairbow - cream",
+      "face": "distraught"
+    },
+    "base_stats": {
+      "hp": 100,
+      "attack": 10,
+      "defense": 10,
+      "speed": 10
+    }
+  }
+]

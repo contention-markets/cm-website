@@ -1,0 +1,49 @@
+{
+  "mintAddress": "Hs97fBzddUF6iqnVnKR3b99N3cenZCQ68sEZ1Qq7vzEn",
+  "owner": "FZgkduNG6pqK2yc6DmQ3unBwVWHdERbEMMZjNdnppsig",
+  "supply": 1,
+  "collection": "okay_bears",
+  "collectionName": "Okay Bears",
+  "name": "Okay Bear #6009",
+  "updateAuthority": "4zj22pu8yRyenFHwLmue28CqVmGFgVQt5FmVvwdP5fLa",
+  "primarySaleHappened": true,
+  "sellerFeeBasisPoints": 500,
+  "image": "https://arweave.net/EIyb6o7CgrFpy-lTYof2uuH3f5XNra4psya971JXMQI",
+  "externalUrl": "https://www.okaybears.com/",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Purple"
+    },
+    {
+      "trait_type": "Fur",
+      "value": "Dark Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Clean Smile"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Defeated"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Classic Cap"
+    },
+    {
+      "trait_type": "Eyewear",
+      "value": "Round Glasses"
+    }
+  ],
+  "price": 0.7999,
+  "listStatus": "listed",
+  "tokenAddress": "Z5b8trcb7PdweY94n5ve1ftLfWe1EKxwVJQ989P4Pj5",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "799900000",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}

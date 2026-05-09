@@ -1,0 +1,80 @@
+{
+  "mintAddress": "ByDF5c2RD4Y43qwQXGL1X8JRAzP9Zy57FaxX7joiLDfW",
+  "owner": "H6B1xriQkPSgpKAfLrTexDWtnuNGga77wGNnuJzwnY3G",
+  "supply": 1,
+  "collection": "pesky_penguins",
+  "collectionName": "Pesky Penguins",
+  "name": "Pesky Penguin #5979",
+  "updateAuthority": "PeskyAmQxdHK17Rpn1khjoMiuerB8rPVDPYjAyXvqSt",
+  "primarySaleHappened": true,
+  "sellerFeeBasisPoints": 600,
+  "image": "https://cdn.pesky-penguins.com/artwork/5979-pixel.png",
+  "externalUrl": "https://pesky-penguins.com",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Greyteal"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Red Mohawk"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "None"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Normal"
+    },
+    {
+      "trait_type": "Body",
+      "value": "None"
+    },
+    {
+      "trait_type": "Beak",
+      "value": "None"
+    },
+    {
+      "trait_type": "Hyper-Dimensional?",
+      "value": "false"
+    },
+    {
+      "trait_type": "Art Style",
+      "value": "Pixel"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://cdn.pesky-penguins.com/artwork/5979-pixel.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "share": 40,
+        "address": "pEsKYABNARLiDFYrjbjHDieD5h6gHrvYf9Vru62NX9k"
+      },
+      {
+        "share": 60,
+        "address": "ppTeamTpw1cbC8ybJpppbnoL7xXD9froJNFb5uvoPvb"
+      }
+    ]
+  },
+  "price": 0.214207365,
+  "listStatus": "listed",
+  "tokenAddress": "4DEy93RWLUDSD1pz3iLCFJxzbtCMkP8jBkgtERd668DU",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "214207365",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}

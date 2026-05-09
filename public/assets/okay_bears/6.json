@@ -1,0 +1,45 @@
+{
+  "mintAddress": "2MmJgcyEtTSgaRButigHnKoSi9vSfuHYJGTV2WKK52Hj",
+  "owner": "gYTKoKsMHTt5ADfJjDTZRiaJCMd5cU2TWhZPG8yprCv",
+  "supply": 1,
+  "collection": "okay_bears",
+  "collectionName": "Okay Bears",
+  "name": "Okay Bear #5196",
+  "updateAuthority": "4zj22pu8yRyenFHwLmue28CqVmGFgVQt5FmVvwdP5fLa",
+  "primarySaleHappened": true,
+  "sellerFeeBasisPoints": 500,
+  "image": "https://arweave.net/ULhti6Klq4US_S_qkmNNrsnAvmwfn6hToCiWxSXTNw4",
+  "externalUrl": "https://www.okaybears.com/",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Cream"
+    },
+    {
+      "trait_type": "Fur",
+      "value": "Dark Brown"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Hmm"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Happy"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Utility Vest"
+    }
+  ],
+  "price": 0.775,
+  "listStatus": "listed",
+  "tokenAddress": "25kWCSPDPA2LfKnc5miRsVzEdPhvAfPSa8fsbQ7BaPdZ",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "775000000",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "mintAddress": "C5ZeVUR24fSAJpYcwwKGyYE8yCRh4Vh9L7cszAjGuheJ",
+  "owner": "odinY4sgwWRV3kiwkNv53McrLnuNhPf4eLTfyqmSSnu",
+  "supply": 1,
+  "collection": "okay_bears",
+  "collectionName": "Okay Bears",
+  "name": "Okay Bear #7939",
+  "updateAuthority": "4zj22pu8yRyenFHwLmue28CqVmGFgVQt5FmVvwdP5fLa",
+  "primarySaleHappened": true,
+  "sellerFeeBasisPoints": 500,
+  "image": "https://arweave.net/_kFPefOCAuGrOm3lHrx-ZLuz6bauXwxfxSpILwD4_cQ",
+  "externalUrl": "https://www.okaybears.com/",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Fur",
+      "value": "Sand"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Raspberry"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Sarcastic"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Classic Cap"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Sling Pack"
+    }
+  ],
+  "price": 0.7749,
+  "listStatus": "listed",
+  "tokenAddress": "EASqs9BmLRWPofQtCCtr4iD7h3zerBLYmACGvobFfiC3",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "774900000",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}

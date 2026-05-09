@@ -1,0 +1,49 @@
+{
+  "mintAddress": "HNryfwSXjV38mXm2pHshnRvDuMJNSCAHnHg7h8ejZby4",
+  "owner": "GHoSttSyCnCT97Qa8KD2wZW8Nehx6mndhxmVyYj6GYA",
+  "supply": 1,
+  "collection": "okay_bears",
+  "collectionName": "Okay Bears",
+  "name": "Okay Bear #5117",
+  "updateAuthority": "4zj22pu8yRyenFHwLmue28CqVmGFgVQt5FmVvwdP5fLa",
+  "primarySaleHappened": true,
+  "sellerFeeBasisPoints": 500,
+  "image": "https://arweave.net/oz8IbX1HdOt1JqJOxsl2F_ewt-4at7T9NhFqCk_jYPU",
+  "externalUrl": "https://www.okaybears.com/",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "Fur",
+      "value": "Ginger"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Huh"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Annoyed"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Skate Cap"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Sleeveless Tee"
+    }
+  ],
+  "price": 0.6999,
+  "listStatus": "listed",
+  "tokenAddress": "ARpMFS3o4QsvVK2wUGhq4PdwFU5xqyuw5MsgyZJ48GDk",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "699900000",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}

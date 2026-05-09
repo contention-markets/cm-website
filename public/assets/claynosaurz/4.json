@@ -1,0 +1,92 @@
+{
+  "mintAddress": "DsfuKDXoo98Q6JSsL9ou9E56Nz2d14ZmUVN834W8ty3E",
+  "owner": "8o2nNTwWopDxmPsBjDktxaUWgUJr3NyrJBogmf8bLTxr",
+  "supply": 1,
+  "collection": "claynosaurz",
+  "collectionName": "Claynosaurz",
+  "name": "Claynosaurz #3507",
+  "updateAuthority": "B7B2g3WbdZMDV3YcDGRGhEt5KyWqDJZFwRR8zpWVEkUF",
+  "primarySaleHappened": true,
+  "sellerFeeBasisPoints": 500,
+  "image": "https://walrus.tusky.io/rh4m74kb5Qt47trDkUIMTYnfVJ-z0jTdxVeo75oYRMI",
+  "externalUrl": "https://claynosaurz.com",
+  "attributes": [
+    {
+      "trait_type": "Edition",
+      "value": "First"
+    },
+    {
+      "trait_type": "Species",
+      "value": "Trice"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Savanna"
+    },
+    {
+      "trait_type": "Color",
+      "value": "Aqua"
+    },
+    {
+      "trait_type": "Motion",
+      "value": "Trot"
+    },
+    {
+      "trait_type": "Mood",
+      "value": "Sad"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Dune"
+    },
+    {
+      "trait_type": "Layer Count",
+      "value": "1"
+    },
+    {
+      "trait_type": "Back",
+      "value": "Off"
+    },
+    {
+      "trait_type": "Belly",
+      "value": "On"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Off"
+    },
+    {
+      "trait_type": "Details",
+      "value": "Off"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://walrus.tusky.io/rh4m74kb5Qt47trDkUIMTYnfVJ-z0jTdxVeo75oYRMI",
+        "type": "image/gif"
+      },
+      {
+        "uri": "https://walrus.tusky.io/ZUzQr-XnCBsz8PyvnBuAp9djJCPLXscceNDzzCvLOuU",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "share": 100,
+        "address": "36tfiBtaDGjAMKd6smPacHQhe4MXycLL6f9ww9CD1naT"
+      }
+    ]
+  },
+  "price": 9.499,
+  "listStatus": "listed",
+  "tokenAddress": "DR5kRYg2ZACjbMUGSyjQg1Pgy7wGuEnedE4qkYPxt6hK",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "9499000000",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}

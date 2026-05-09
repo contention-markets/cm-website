@@ -1,0 +1,61 @@
+{
+  "mintAddress": "3gVUUquM22izrxqDmK3QNbEpB3btvuw8jCDX8T8uacGo",
+  "owner": "H6B1xriQkPSgpKAfLrTexDWtnuNGga77wGNnuJzwnY3G",
+  "supply": 1,
+  "collection": "sharx",
+  "collectionName": "sharx by sharky.fi",
+  "name": "sharx #2486",
+  "updateAuthority": "GB1yde2ESeWvT4yjiDgnnY9gH7DhcvppPttKVTmVx3Fe",
+  "primarySaleHappened": true,
+  "sellerFeeBasisPoints": 790,
+  "image": "https://arweave.net/zHqU3hNZ8h8WPdYeYaIkCatpZ9rdCuMxCrdmDw4ozgg?ext=png",
+  "externalUrl": "https://sharky.fi",
+  "attributes": [
+    {
+      "trait_type": "level",
+      "value": 3
+    },
+    {
+      "trait_type": "attribute count",
+      "value": 1
+    },
+    {
+      "trait_type": "background",
+      "value": "pastel - mint"
+    },
+    {
+      "trait_type": "body",
+      "value": "minimalist - cream"
+    },
+    {
+      "trait_type": "face",
+      "value": "sleepy"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://arweave.net/zHqU3hNZ8h8WPdYeYaIkCatpZ9rdCuMxCrdmDw4ozgg?ext=png",
+        "type": "image/png"
+      }
+    ],
+    "edition": 2486,
+    "category": "image",
+    "creators": [
+      {
+        "share": 100,
+        "address": "7YdUTMtUauMjtezjwMzyaAUu1A92qCF1yx8AiiZ38ovs"
+      }
+    ]
+  },
+  "price": 0.356137326,
+  "listStatus": "listed",
+  "tokenAddress": "5PhRhnvGgLNJCeY5onmc9Y79zsUjJndbjyftki2qSMxw",
+  "priceInfo": {
+    "solPrice": {
+      "rawAmount": "356137326",
+      "address": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    }
+  }
+}
