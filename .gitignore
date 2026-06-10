@@ -23,6 +23,9 @@ build/
 # Internal docs (never push)
 ENGINEERING/
 **/ENGINEERING/
+# but the public-facing /engineering Next.js route IS shipped
+!src/app/engineering/
+!src/app/engineering/**
 
 # Local-only legacy
 _archive/
