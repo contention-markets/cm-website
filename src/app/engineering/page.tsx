@@ -81,7 +81,7 @@ export default function EngineeringPage() {
               On settlement, a <strong>2% protocol rake</strong> splits four ways. Winner nets 98% of the pot.
             </p>
             <Code>{`Component        Rate    Destination
-Protocol         0.80%   CM operator entity (offshore-future)
+Protocol         0.80%   CM protocol treasury
 Game creator     1.00%   Creator's wallet (arms-length dev rev share)
 PoolBacker       0.20%   CM-owned PDA (self-funding ER infrastructure)
 Winner payout   98.00%   Winner's wallet`}</Code>
@@ -106,7 +106,7 @@ Winner payout   98.00%   Winner's wallet`}</Code>
               treasury operations, creator-program defenses.
             </p>
             <p>
-              <strong>Mainnet only after the gate is green AND the offshore CM entity is formed.</strong> Until then,
+              <strong>Mainnet only after the gate is green AND operating governance is locked in.</strong> Until then,
               every surface stays on devnet with play-money.
             </p>
           </Section>
@@ -117,7 +117,7 @@ Winner payout   98.00%   Winner's wallet`}</Code>
               <li>contention.markets dashboard live on devnet — 166 markets, real on-chain reads</li>
               <li>cm-website + cm-contract repos split (cm-website public, cm-contract devnet-hardening)</li>
               <li>Pari-mutuel skill-contest markets (5% protocol fee — see /docs)</li>
-              <li>Mainnet pending offshore entity formation</li>
+              <li>Mainnet pending readiness gate sign-off</li>
             </ul>
             <h4 className="text-white/85 font-semibold mt-2 mb-1">Track B — Battle Mode (1v1)</h4>
             <ul className="list-disc list-inside space-y-1 mb-4">
@@ -125,13 +125,12 @@ Winner payout   98.00%   Winner's wallet`}</Code>
               <li>Per-game rules engines (magic-chess-rules, snake-duel-rules, blockwords-rules) — 3-ix CPI ABI</li>
               <li>Full devnet integration test: lobby → ER session → settle → winner paid</li>
               <li>Cost saving: new battle game ~$60 instead of ~$510 — 8.5× cheaper than standalone programs</li>
-              <li>Stays devnet-only until offshore entity forms</li>
+              <li>Stays devnet-only until readiness gate is green</li>
             </ul>
-            <h4 className="text-white/85 font-semibold mt-2 mb-1">Mainnet — when entity ✅ AND gate ✅</h4>
+            <h4 className="text-white/85 font-semibold mt-2 mb-1">Mainnet — when readiness gate ✅</h4>
             <ul className="list-disc list-inside space-y-1">
-              <li>Offshore CM operating entity formed (Cayman / BVI / UAE FZE TBD)</li>
               <li>Independent security audit complete</li>
-              <li>Two-Squads multisig live (Gamerplex Pty Ltd ↔ CM operator entity)</li>
+              <li>Multisig live on the upgrade authority</li>
               <li>48hr admin timelock on CM v2.1</li>
               <li>All 64 items in the Wagered Readiness Gate green</li>
             </ul>

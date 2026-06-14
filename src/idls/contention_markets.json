@@ -252,6 +252,60 @@
       ]
     },
     {
+      "name": "cancel_admin_action",
+      "docs": [
+        "Admin cancels a queued proposal before timelock elapses. Closes PDA."
+      ],
+      "discriminator": [
+        160,
+        33,
+        64,
+        71,
+        237,
+        85,
+        1,
+        251
+      ],
+      "accounts": [
+        {
+          "name": "timelock_proposal",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  116,
+                  105,
+                  109,
+                  101,
+                  108,
+                  111,
+                  99,
+                  107,
+                  95,
+                  112,
+                  114,
+                  111,
+                  112,
+                  111,
+                  115,
+                  97,
+                  108
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "admin",
+          "writable": true,
+          "signer": true
+        }
+      ],
+      "args": []
+    },
+    {
       "name": "claim_backer_winnings",
       "docs": [
         "Claim backer winnings after market resolution.",
@@ -604,6 +658,101 @@
           "type": "u64"
         }
       ]
+    },
+    {
+      "name": "execute_admin_action",
+      "docs": [
+        "Execute a queued admin action. Permissionless once timelock has elapsed",
+        "(anyone can crank). Closes the proposal PDA, refunding rent to admin."
+      ],
+      "discriminator": [
+        137,
+        32,
+        74,
+        105,
+        59,
+        159,
+        150,
+        197
+      ],
+      "accounts": [
+        {
+          "name": "timelock_proposal",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  116,
+                  105,
+                  109,
+                  101,
+                  108,
+                  111,
+                  99,
+                  107,
+                  95,
+                  112,
+                  114,
+                  111,
+                  112,
+                  111,
+                  115,
+                  97,
+                  108
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "protocol_config_v2",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  112,
+                  114,
+                  111,
+                  116,
+                  111,
+                  99,
+                  111,
+                  108,
+                  95,
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103,
+                  95,
+                  118,
+                  50
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "admin",
+          "docs": [
+            "Original admin who proposed — receives rent refund via `close = admin`."
+          ],
+          "writable": true
+        },
+        {
+          "name": "executor",
+          "docs": [
+            "Anyone can crank execution after the timelock elapses."
+          ],
+          "signer": true
+        }
+      ],
+      "args": []
     },
     {
       "name": "expire_market",
@@ -1129,7 +1278,7 @@
       ],
       "args": [
         {
-          "name": "pool_sponsor",
+          "name": "pool_backer",
           "type": "pubkey"
         },
         {
@@ -1141,7 +1290,7 @@
           "type": "u16"
         },
         {
-          "name": "pool_sponsor_fee_bps",
+          "name": "pool_backer_fee_bps",
           "type": "u16"
         }
       ]
@@ -1179,6 +1328,108 @@
           "name": "account_seeds",
           "type": {
             "vec": "bytes"
+          }
+        }
+      ]
+    },
+    {
+      "name": "propose_admin_action",
+      "docs": [
+        "Admin queues a timelocked action. `deadline` caps replay window per Drift class.",
+        "One proposal at a time per program; cancel before re-proposing."
+      ],
+      "discriminator": [
+        91,
+        191,
+        37,
+        174,
+        37,
+        82,
+        143,
+        215
+      ],
+      "accounts": [
+        {
+          "name": "timelock_proposal",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  116,
+                  105,
+                  109,
+                  101,
+                  108,
+                  111,
+                  99,
+                  107,
+                  95,
+                  112,
+                  114,
+                  111,
+                  112,
+                  111,
+                  115,
+                  97,
+                  108
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "protocol_config",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  112,
+                  114,
+                  111,
+                  116,
+                  111,
+                  99,
+                  111,
+                  108,
+                  95,
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "admin",
+          "writable": true,
+          "signer": true,
+          "relations": [
+            "protocol_config"
+          ]
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "deadline",
+          "type": "i64"
+        },
+        {
+          "name": "action",
+          "type": {
+            "defined": {
+              "name": "TimelockedAction"
+            }
           }
         }
       ]
@@ -1283,6 +1534,10 @@
         }
       ],
       "args": [
+        {
+          "name": "deadline",
+          "type": "i64"
+        },
         {
           "name": "label",
           "type": "string"
@@ -1401,6 +1656,10 @@
       ],
       "args": [
         {
+          "name": "deadline",
+          "type": "i64"
+        },
+        {
           "name": "label",
           "type": "string"
         },
@@ -1511,6 +1770,10 @@
         }
       ],
       "args": [
+        {
+          "name": "deadline",
+          "type": "i64"
+        },
         {
           "name": "fee_share_bps",
           "type": "u16"
@@ -1697,7 +1960,7 @@
         "Fee math (v2 defaults, configurable via upgrade_protocol_to_v2):",
         "protocol_fee     = total × protocol_fee_bps     / 10000   (default 80 bps)",
         "partner_fee      = total × partner_fee_bps      / 10000   (default 100 bps)",
-        "pool_sponsor_fee = total × pool_sponsor_fee_bps / 10000   (default 20 bps)",
+        "pool_backer_fee = total × pool_backer_fee_bps / 10000   (default 20 bps)",
         "winner_payout    = total − (all three fees)"
       ],
       "discriminator": [
@@ -1781,7 +2044,7 @@
         {
           "name": "protocol_config_v2",
           "docs": [
-            "V2 ProtocolConfig — fee bps + PoolSponsor live here."
+            "V2 ProtocolConfig — fee bps + PoolBacker live here."
           ],
           "pda": {
             "seeds": [
@@ -1937,15 +2200,15 @@
           "writable": true
         },
         {
-          "name": "pool_sponsor",
+          "name": "pool_backer",
           "docs": [
-            "PoolSponsor's sentinel (checked against `config.pool_sponsor`)."
+            "PoolBacker's sentinel (checked against `config.pool_backer`)."
           ]
         },
         {
-          "name": "pool_sponsor_treasury",
+          "name": "pool_backer_treasury",
           "docs": [
-            "PoolSponsor's token account (receives the 0.20% slice)."
+            "PoolBacker's token account (receives the 0.20% slice)."
           ],
           "writable": true
         },
@@ -2050,6 +2313,10 @@
         }
       ],
       "args": [
+        {
+          "name": "deadline",
+          "type": "i64"
+        },
         {
           "name": "is_active",
           "type": "bool"
@@ -2156,7 +2423,12 @@
           ]
         }
       ],
-      "args": []
+      "args": [
+        {
+          "name": "deadline",
+          "type": "i64"
+        }
+      ]
     },
     {
       "name": "update_protocol_config",
@@ -2212,6 +2484,10 @@
       ],
       "args": [
         {
+          "name": "deadline",
+          "type": "i64"
+        },
+        {
           "name": "new_fee_bps",
           "type": {
             "option": "u16"
@@ -2228,8 +2504,8 @@
     {
       "name": "update_protocol_config_v2",
       "docs": [
-        "Admin may update v2 fee rates or PoolSponsor destination (timelocked at a higher",
-        "layer pre-mainnet). Each component bounded by V2_MAX_COMPONENT_FEE_BPS."
+        "Admin may update v2 fee rates or PoolBacker destination. Each",
+        "component bounded by V2_MAX_COMPONENT_FEE_BPS."
       ],
       "discriminator": [
         219,
@@ -2310,7 +2586,11 @@
       ],
       "args": [
         {
-          "name": "new_pool_sponsor",
+          "name": "deadline",
+          "type": "i64"
+        },
+        {
+          "name": "new_pool_backer",
           "type": {
             "option": "pubkey"
           }
@@ -2328,7 +2608,7 @@
           }
         },
         {
-          "name": "new_pool_sponsor_fee_bps",
+          "name": "new_pool_backer_fee_bps",
           "type": {
             "option": "u16"
           }
@@ -2440,9 +2720,48 @@
         125,
         109
       ]
+    },
+    {
+      "name": "TimelockProposal",
+      "discriminator": [
+        55,
+        36,
+        118,
+        121,
+        218,
+        8,
+        5,
+        13
+      ]
     }
   ],
   "events": [
+    {
+      "name": "AdminActionExecuted",
+      "discriminator": [
+        166,
+        30,
+        59,
+        79,
+        198,
+        153,
+        64,
+        78
+      ]
+    },
+    {
+      "name": "AdminActionProposed",
+      "discriminator": [
+        21,
+        150,
+        129,
+        125,
+        249,
+        117,
+        19,
+        14
+      ]
+    },
     {
       "name": "BackerWinningsClaimed",
       "discriminator": [
@@ -2753,8 +3072,8 @@
     },
     {
       "code": 6030,
-      "name": "InvalidPoolSponsor",
-      "msg": "PoolSponsor account does not match the one registered in protocol config."
+      "name": "InvalidPoolBacker",
+      "msg": "PoolBacker account does not match the one registered in protocol config."
     },
     {
       "code": 6031,
@@ -2800,9 +3119,70 @@
       "code": 6039,
       "name": "BindingGameProgramMismatch",
       "msg": "MarketGameBinding references a different game_program than the registered one."
+    },
+    {
+      "code": 6040,
+      "name": "DeadlineExceeded",
+      "msg": "Admin tx deadline has already passed (replay defense)."
+    },
+    {
+      "code": 6041,
+      "name": "DeadlineTooFar",
+      "msg": "Admin tx deadline is more than 7 days in the future (replay defense)."
+    },
+    {
+      "code": 6042,
+      "name": "NoTimelockProposal",
+      "msg": "No timelock proposal queued."
+    },
+    {
+      "code": 6043,
+      "name": "TimelockNotElapsed",
+      "msg": "Timelock period has not elapsed yet."
+    },
+    {
+      "code": 6044,
+      "name": "TimelockAlreadyQueued",
+      "msg": "A timelock proposal is already queued; cancel it first."
     }
   ],
   "types": [
+    {
+      "name": "AdminActionExecuted",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "admin",
+            "type": "pubkey"
+          },
+          {
+            "name": "executor",
+            "type": "pubkey"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AdminActionProposed",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "admin",
+            "type": "pubkey"
+          },
+          {
+            "name": "proposed_at",
+            "type": "i64"
+          },
+          {
+            "name": "executable_at",
+            "type": "i64"
+          }
+        ]
+      }
+    },
     {
       "name": "BackerStake",
       "docs": [
@@ -3259,7 +3639,7 @@
             "type": "u64"
           },
           {
-            "name": "pool_sponsor_fee",
+            "name": "pool_backer_fee",
             "type": "u64"
           },
           {
@@ -3487,16 +3867,16 @@
       "name": "ProtocolConfigV2",
       "docs": [
         "V2 protocol configuration — SEPARATE PDA. Singleton: [\"protocol_config_v2\"].",
-        "Added Day 1 of 5-day plan, 2026-04-20. Keeping v2 state in its own PDA",
-        "avoids any deserialization risk to the already-live v1 ProtocolConfig on devnet."
+        "Kept distinct from the v1 ProtocolConfig PDA to avoid touching the",
+        "already-deployed account's layout."
       ],
       "type": {
         "kind": "struct",
         "fields": [
           {
-            "name": "pool_sponsor",
+            "name": "pool_backer",
             "docs": [
-              "PoolSponsor account whose treasury token account receives the 0.20% slice."
+              "PoolBacker account whose treasury token account receives the 0.20% slice."
             ],
             "type": "pubkey"
           },
@@ -3515,9 +3895,9 @@
             "type": "u16"
           },
           {
-            "name": "pool_sponsor_fee_bps",
+            "name": "pool_backer_fee_bps",
             "docs": [
-              "PoolSponsor slice (default 20 bps = 0.20%)."
+              "PoolBacker slice (default 20 bps = 0.20%)."
             ],
             "type": "u16"
           },
@@ -3534,7 +3914,7 @@
         "kind": "struct",
         "fields": [
           {
-            "name": "pool_sponsor",
+            "name": "pool_backer",
             "type": "pubkey"
           },
           {
@@ -3546,8 +3926,77 @@
             "type": "u16"
           },
           {
-            "name": "pool_sponsor_fee_bps",
+            "name": "pool_backer_fee_bps",
             "type": "u16"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TimelockProposal",
+      "docs": [
+        "Singleton PDA: [\"timelock_proposal\"]. Holds the pending admin action queued",
+        "for execution. Admin proposes; anyone can execute after 48h; admin cancels."
+      ],
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "admin",
+            "type": "pubkey"
+          },
+          {
+            "name": "proposed_at",
+            "type": "i64"
+          },
+          {
+            "name": "action",
+            "type": {
+              "defined": {
+                "name": "TimelockedAction"
+              }
+            }
+          },
+          {
+            "name": "bump",
+            "type": "u8"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TimelockedAction",
+      "type": {
+        "kind": "enum",
+        "variants": [
+          {
+            "name": "UpdateProtocolConfigV2",
+            "fields": [
+              {
+                "name": "new_pool_backer",
+                "type": {
+                  "option": "pubkey"
+                }
+              },
+              {
+                "name": "new_protocol_fee_bps",
+                "type": {
+                  "option": "u16"
+                }
+              },
+              {
+                "name": "new_partner_fee_bps",
+                "type": {
+                  "option": "u16"
+                }
+              },
+              {
+                "name": "new_pool_backer_fee_bps",
+                "type": {
+                  "option": "u16"
+                }
+              }
+            ]
           }
         ]
       }

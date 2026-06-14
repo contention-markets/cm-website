@@ -75,10 +75,10 @@ function Footer() {
       </div>
       <div className="border-t border-white/[0.04]">
         <div className="max-w-[1400px] mx-auto px-6 py-4 flex items-center justify-between text-[10.5px] font-mono text-white/35">
-          <span>© 2026 contention.markets · Operating entity TBA · Software MIT-licensed · Built on Solana</span>
+          <span>© 2026 contention.markets · Software MIT-licensed · Built on Solana</span>
           <span className="flex items-center gap-2">
             <span className="w-1.5 h-1.5 rounded-full bg-[#ffb800] animate-pulse" />
-            DEVNET · skill-contest pre-counsel · play-money only
+            DEVNET · play-money only
           </span>
         </div>
       </div>

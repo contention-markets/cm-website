@@ -12,7 +12,7 @@ The dashboard frontend for **[Contention Markets](https://contention.markets)** 
 
 - All markets settle in **devnet USDC** (faucet token, no economic value).
 - All wallets connect to **Solana devnet** by default.
-- **Mainnet deploy is gated** behind: independent code review, formation of the operating entity, and full Mainnet Readiness Gate sign-off.
+- **Mainnet deploy is gated** behind: independent code review and full Mainnet Readiness Gate sign-off.
 - This UI is published as **infrastructure / reference code** — not an offer of service in any jurisdiction.
 
 If you arrived here expecting a live wagering product: it's not one yet. Bookmark and check back when mainnet ships.
@@ -22,7 +22,7 @@ If you arrived here expecting a live wagering product: it's not one yet. Bookmar
 ## Live (devnet)
 
 - Web: https://contention.markets *(Solana devnet)*
-- Network: Solana **devnet** (mainnet ships post-audit + operating-entity formation)
+- Network: Solana **devnet** (mainnet ships post-audit)
 - Data layer: a separately-operated public resolver (devnet RPC; default URL set in `src/lib/cmApi.ts`, override via `NEXT_PUBLIC_RESOLVER_URL`)
 
 ## What it does

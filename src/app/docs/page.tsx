@@ -127,8 +127,7 @@ Total max          10%   (hard-capped in code)`}
               — we don't and won't compete in that lane.
             </p>
             <p className="text-white/45 text-[13px]">
-              Pre-counsel: devnet only with play-money. Mainnet is gated on a counsel memo confirming the DFS frame
-              and state-by-state allowlist.
+              Devnet only with play-money. Mainnet ships when the regulatory frame is confirmed.
             </p>
           </Section>
 
